@@ -94,3 +94,13 @@ Key points:
   All JSON lives in Git; you can roll back, branch, and review changes like any other codebase while GitHub Pages redeploys and re‑caches automatically.
 
 This combination (static JSON + sharding + client‑side logic + CDN caching) is effectively the “fast path” that many dynamic APIs end up approximating with layers of caching—here it’s the default.
+
+---
+
+## 🛠 Deployment Status
+
+Currently deploying via GitHub Actions. If the deployment fails with "Get Pages site failed", ensure that **GitHub Pages is enabled** in the repository settings:
+
+1. Go to **Settings** -> **Pages**.
+2. Under "Build and deployment", select **GitHub Actions** as the source.
+3. The workflow will automatically pick this up on the next push.
