@@ -1,6 +1,6 @@
 {
-    "name": "roast-as-a-service",
-    "version": "1.0.0",
+    "name": "@maijied/roast-as-a-service",
+    "version": "1.0.1",
     "description": "A static JSON API for delivering developer roasts.",
     "main": "api/client.js",
     "scripts": {
@@ -10,11 +10,15 @@
         "type": "git",
         "url": "git+https://github.com/Maijied/roast-as-a-service.git"
     },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    },
     "keywords": [
         "roast",
         "api",
         "developer",
-        "fun"
+        "fun",
+        "lorapok"
     ],
     "author": "Maijied",
     "license": "MIT",
