@@ -28,26 +28,3 @@ jobs:
           files: |
             api/client.js
             postman/roast-as-a-service.postman_collection.json
-
-  publish-github-packages:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write
-    steps:
-      - uses: actions/checkout@v4
-      
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '20.x'
-          registry-url: 'https://npm.pkg.github.com'
-          scope: '@maizied'
-
-      - name: Update package name for GitHub Packages
-        run: |
-          sed -i 's/"name": "roast-api"/"name": "@maizied\/roast-api"/' package.json
-          cat package.json
-
-      - run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
