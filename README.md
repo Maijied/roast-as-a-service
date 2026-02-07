@@ -169,3 +169,15 @@ RaaS is a proud member of the **Lorapok** family. Check out our other tools:
 - **[Lorapok Media Player](https://github.com/Maijied/Lorapok_Media_Player):** A modern, feature-rich media player built for power users.
 
 ---
+
+## 👤 Author
+
+**Maizied**  
+📧 [mdshuvo40@gmail.com](mailto:mdshuvo40@gmail.com)  
+🔗 [GitHub](https://github.com/Maijied) · [npm](https://www.npmjs.com/~maizied)
+
+---
+
+## 📄 License
+
+MIT © Maizied
