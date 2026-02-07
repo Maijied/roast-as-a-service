@@ -3,9 +3,11 @@ const RaaS = (() => {
   const CACHE_TTL_MS = 1000 * 60 * 60 * 24; // 24h
 
   let manifestCache = null;
+  let memoryCache = {};
 
+  // Universal fetch (works in Node.js 18+ and browsers)
   async function fetchJSON(url) {
-    const res = await fetch(url, { cache: 'force-cache' });
+    const res = await fetch(url);
     if (!res.ok) throw new Error('Network error');
     return res.json();
   }
@@ -23,24 +25,41 @@ const RaaS = (() => {
 
   function readLocalCache(lang, shard) {
     const key = getLocalCacheKey(lang, shard);
-    const raw = localStorage.getItem(key);
-    if (!raw) return null;
-    try {
-      const parsed = JSON.parse(raw);
-      if (Date.now() - parsed.ts > CACHE_TTL_MS) {
+
+    // Try localStorage (browser)
+    if (typeof localStorage !== 'undefined') {
+      const raw = localStorage.getItem(key);
+      if (!raw) return null;
+      try {
+        const parsed = JSON.parse(raw);
+        if (Date.now() - parsed.ts > CACHE_TTL_MS) {
+          localStorage.removeItem(key);
+          return null;
+        }
+        return parsed.data;
+      } catch {
         localStorage.removeItem(key);
         return null;
       }
-      return parsed.data;
-    } catch {
-      localStorage.removeItem(key);
-      return null;
     }
+
+    // Fallback to memory cache (Node.js)
+    const cached = memoryCache[key];
+    if (cached && Date.now() - cached.ts <= CACHE_TTL_MS) {
+      return cached.data;
+    }
+    return null;
   }
 
   function writeLocalCache(lang, shard, data) {
     const key = getLocalCacheKey(lang, shard);
-    localStorage.setItem(key, JSON.stringify({ ts: Date.now(), data }));
+    const cacheObj = { ts: Date.now(), data };
+
+    if (typeof localStorage !== 'undefined') {
+      localStorage.setItem(key, JSON.stringify(cacheObj));
+    } else {
+      memoryCache[key] = cacheObj;
+    }
   }
 
   function pickRandomIndex(max) {
@@ -81,14 +100,27 @@ const RaaS = (() => {
     return {
       language: shardData.language,
       shard: shardData.shard,
+      id: roast.id,
       text: roast.text,
       intensity: roast.intensity,
       length: roast.length
     };
   }
 
-  return {
+  const api = {
     getRandomRoast,
     getManifest
   };
+
+  // CommonJS export for Node.js
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = api;
+  }
+
+  return api;
 })();
+
+// For browser global usage
+if (typeof window !== 'undefined') {
+  window.RaaS = RaaS;
+}
