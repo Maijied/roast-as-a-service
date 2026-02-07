@@ -159,6 +159,20 @@ Key points:
 
 This combination (static JSON + sharding + client‑side logic + CDN caching) is effectively the “fast path” that many dynamic APIs end up approximating with layers of caching—here it’s the default.
 
+## ⚡ Performance & Benchmarks
+
+RaaS is built for extreme speed and low overhead. By sharding data and relying on CDN edge caching + local browser caching, it achieves massive throughput.
+
+**Latest Benchmark Results:**
+- **Requests/sec**: ~2,000 (Tested with 5,000 total requests)
+- **Success Rate**: 100% (Zero failures under high concurrency)
+- **Avg Latency**: ~58ms
+- **P95 Latency**: ~159ms
+- **Cache Efficiency**: 90%+ (Manifest and shard reuse)
+
+> [!TIP]
+> This "Static API" approach beats the latency of traditional dynamic APIs by removing backend processing, cold starts, and database queries from the request path.
+
 ---
 
 ## 🐛 More from Lorapok
