@@ -27,7 +27,8 @@ Use it when you want your:
 ## 🌐 Live Service
 
 - **Website:** https://maijied.github.io/roast-as-a-service/
-- **API Base:** https://maijied.github.io/roast-as-a-service/api/
+- **Website:** https://maijied.github.io/roast-as-a-service/
+- **API Base Path:** `https://maijied.github.io/roast-as-a-service/api/`
 
 ---
 
