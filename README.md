@@ -1,6 +1,12 @@
 # 🥵 Roast as a Service (RaaS)
 
+<p align="center">
+  <img src="https://maijied.github.io/roast-as-a-service/assets/logo.png" width="128" alt="RaaS Logo" />
+</p>
+
 Random developer roasts, delivered via a blazing‑fast static API on GitHub Pages. Plug it into your apps, bots, terminals, or CI logs when “nice error messages” just aren’t enough.
+
+> **Part of the [Lorapok Ecosystem](https://github.com/Maijied/lorapok)** — Building the future of AI-driven developer tools. 🐛
 
 ---
 
@@ -137,10 +143,11 @@ This combination (static JSON + sharding + client‑side logic + CDN caching) is
 
 ---
 
-## 🛠 Deployment Status
+## 🐛 More from Lorapok
 
-Currently deploying via GitHub Actions. If the deployment fails with "Get Pages site failed", ensure that **GitHub Pages is enabled** in the repository settings:
+RaaS is a proud member of the **Lorapok** family. Check out our other tools:
 
-1. Go to **Settings** -> **Pages**.
-2. Under "Build and deployment", select **GitHub Actions** as the source.
-3. The workflow will automatically pick this up on the next push.
+- **[Lorapok CLI](https://github.com/Maijied/lorapok):** The intelligent AI agent framework for developers.
+- **[Lorapok Media Player](https://github.com/Maijied/Lorapok_Media_Player):** A modern, feature-rich media player built for power users.
+
+---
