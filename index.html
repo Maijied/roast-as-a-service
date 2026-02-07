@@ -195,10 +195,15 @@ async function getRandomRoast(lang = 'en') {
                 </p>
                 <div class="code-card">
                     <h3>Download</h3>
-                    <p>
-                        Collection file: <code>postman/roast-as-a-service.postman_collection.json</code>
-                    </p>
-                    <p>In Postman: Import → choose the JSON file → run the requests.</p>
+                    <div style="padding: 0 12px 14px;">
+                        <a href="./postman/roast-as-a-service.postman_collection.json" download class="btn primary"
+                            style="width: 100%; display: block; text-align: center; text-decoration: none; margin-bottom: 10px;">
+                            Download Postman Collection
+                        </a>
+                        <p style="font-size: 0.8rem; margin: 0; color: var(--text-muted);">
+                            Import this JSON file into Postman to test all endpoints instantly.
+                        </p>
+                    </div>
                 </div>
             </section>
 
