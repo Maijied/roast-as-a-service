@@ -1,6 +1,6 @@
 {
-    "name": "@maijied/roast-as-a-service",
-    "version": "1.0.3",
+    "name": "@maizied/roast-as-a-service",
+    "version": "1.0.4",
     "description": "A static JSON API for delivering developer roasts.",
     "main": "api/client.js",
     "scripts": {
@@ -20,7 +20,7 @@
         "fun",
         "lorapok"
     ],
-    "author": "Maijied",
+    "author": "Maizied",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/Maijied/roast-as-a-service/issues"
