@@ -1,6 +1,6 @@
 {
-    "name": "@maizied/roast-as-a-service",
-    "version": "1.0.4",
+    "name": "roast-api",
+    "version": "1.0.0",
     "description": "A static JSON API for delivering developer roasts.",
     "main": "api/client.js",
     "scripts": {
