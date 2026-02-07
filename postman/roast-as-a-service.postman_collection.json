@@ -1,0 +1,79 @@
+{
+  "info": {
+    "name": "Roast as a Service (RaaS)",
+    "_postman_id": "8c5a4e1b-aaaa-bbbb-cccc-112233445566",
+    "description": "Postman collection for testing Roast as a Service (RaaS) static JSON API on GitHub Pages.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get manifest",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://maijied.github.io/roast-as-a-service/api/manifest.json",
+          "protocol": "https",
+          "host": [
+            "maijied",
+            "github",
+            "io"
+          ],
+          "path": [
+            "roast-as-a-service",
+            "api",
+            "manifest.json"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get English shard 1",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://maijied.github.io/roast-as-a-service/api/en/roasts-en-1.json",
+          "protocol": "https",
+          "host": [
+            "maijied",
+            "github",
+            "io"
+          ],
+          "path": [
+            "roast-as-a-service",
+            "api",
+            "en",
+            "roasts-en-1.json"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Bangla shard 1",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://maijied.github.io/roast-as-a-service/api/bn/roasts-bn-1.json",
+          "protocol": "https",
+          "host": [
+            "maijied",
+            "github",
+            "io"
+          ],
+          "path": [
+            "roast-as-a-service",
+            "api",
+            "bn",
+            "roasts-bn-1.json"
+          ]
+        }
+      },
+      "response": []
+    }
+  ],
+  "variable": []
+}

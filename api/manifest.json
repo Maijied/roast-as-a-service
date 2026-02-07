@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "languages": {
+    "en": {
+      "shards": 1,
+      "sizes": [
+        299
+      ]
+    },
+    "bn": {
+      "shards": 1,
+      "sizes": [
+        248
+      ]
+    }
+  }
+}

@@ -1,0 +1,1806 @@
+{
+  "language": "en",
+  "shard": 1,
+  "total_shards": 1,
+  "count": 299,
+  "tags": [
+    "dev",
+    "general"
+  ],
+  "roasts": [
+    {
+      "id": "en-1-1",
+      "text": "You have more TODOs than completed tasks.",
+      "intensity": 2,
+      "length": 41
+    },
+    {
+      "id": "en-1-2",
+      "text": "Even your bugs have bugs.",
+      "intensity": 2,
+      "length": 25
+    },
+    {
+      "id": "en-1-3",
+      "text": "Your codebase looks like it was written during a live outage.",
+      "intensity": 2,
+      "length": 61
+    },
+    {
+      "id": "en-1-4",
+      "text": "You name one file utils.js and commit all your sins in it.",
+      "intensity": 2,
+      "length": 58
+    },
+    {
+      "id": "en-1-5",
+      "text": "Your code is the reason git revert exists.",
+      "intensity": 2,
+      "length": 42
+    },
+    {
+      "id": "en-1-6",
+      "text": "You treat `FIXME` as a decorative sticker, not a warning.",
+      "intensity": 2,
+      "length": 57
+    },
+    {
+      "id": "en-1-7",
+      "text": "Your microservices communicate more clearly than you do in standups.",
+      "intensity": 2,
+      "length": 68
+    },
+    {
+      "id": "en-1-8",
+      "text": "You think ‘refactor later’ is an actual plan, not a lie.",
+      "intensity": 2,
+      "length": 56
+    },
+    {
+      "id": "en-1-9",
+      "text": "Your `README` says easy setup, your devs say otherwise.",
+      "intensity": 2,
+      "length": 55
+    },
+    {
+      "id": "en-1-10",
+      "text": "You use comments like ‘don’t touch this’ because you’re afraid too.",
+      "intensity": 2,
+      "length": 67
+    },
+    {
+      "id": "en-1-11",
+      "text": "Your logs have more drama than your sprint retrospectives.",
+      "intensity": 2,
+      "length": 58
+    },
+    {
+      "id": "en-1-12",
+      "text": "You treat staging like a rumor, not an environment.",
+      "intensity": 2,
+      "length": 51
+    },
+    {
+      "id": "en-1-13",
+      "text": "Your code review response is always ‘done’, but nothing changed.",
+      "intensity": 2,
+      "length": 64
+    },
+    {
+      "id": "en-1-14",
+      "text": "You think code coverage is a personality trait, not a metric.",
+      "intensity": 2,
+      "length": 61
+    },
+    {
+      "id": "en-1-15",
+      "text": "Your CI is basically a slot machine that sometimes turns green.",
+      "intensity": 2,
+      "length": 63
+    },
+    {
+      "id": "en-1-16",
+      "text": "You deploy first and only then start reading the error logs.",
+      "intensity": 2,
+      "length": 60
+    },
+    {
+      "id": "en-1-17",
+      "text": "Your coding style is debug-driven, not test-driven.",
+      "intensity": 2,
+      "length": 51
+    },
+    {
+      "id": "en-1-18",
+      "text": "You consider `console.log` a long-term observability solution.",
+      "intensity": 2,
+      "length": 62
+    },
+    {
+      "id": "en-1-19",
+      "text": "Your error page is more helpful than your documentation.",
+      "intensity": 2,
+      "length": 56
+    },
+    {
+      "id": "en-1-20",
+      "text": "You think copying from old projects counts as ‘internal library’.",
+      "intensity": 2,
+      "length": 65
+    },
+    {
+      "id": "en-1-21",
+      "text": "Your branch names explain nothing and confuse everyone.",
+      "intensity": 2,
+      "length": 55
+    },
+    {
+      "id": "en-1-22",
+      "text": "You created so much tech debt the company needs a loan.",
+      "intensity": 2,
+      "length": 55
+    },
+    {
+      "id": "en-1-23",
+      "text": "You handle edge cases by pretending edges don’t exist.",
+      "intensity": 2,
+      "length": 54
+    },
+    {
+      "id": "en-1-24",
+      "text": "You think ‘temporary workaround’ means permanent feature.",
+      "intensity": 2,
+      "length": 57
+    },
+    {
+      "id": "en-1-25",
+      "text": "Your rollback strategy is crying and pushing again.",
+      "intensity": 2,
+      "length": 51
+    },
+    {
+      "id": "en-1-26",
+      "text": "You write scripts that only work on your own laptop.",
+      "intensity": 2,
+      "length": 52
+    },
+    {
+      "id": "en-1-27",
+      "text": "You treat code review like a negotiation instead of improvement.",
+      "intensity": 2,
+      "length": 64
+    },
+    {
+      "id": "en-1-28",
+      "text": "Your tests break more often than your promises.",
+      "intensity": 2,
+      "length": 47
+    },
+    {
+      "id": "en-1-29",
+      "text": "You use experimental flags in production like it’s a playground.",
+      "intensity": 2,
+      "length": 64
+    },
+    {
+      "id": "en-1-30",
+      "text": "Your feature toggles are just fancy if statements that never get removed.",
+      "intensity": 2,
+      "length": 73
+    },
+    {
+      "id": "en-1-31",
+      "text": "You measure performance by ‘does it feel okay?’.",
+      "intensity": 2,
+      "length": 48
+    },
+    {
+      "id": "en-1-32",
+      "text": "You use three different date libraries in one project.",
+      "intensity": 2,
+      "length": 54
+    },
+    {
+      "id": "en-1-33",
+      "text": "Your database migrations feel like boss fights.",
+      "intensity": 2,
+      "length": 47
+    },
+    {
+      "id": "en-1-34",
+      "text": "You consider a passing linter check as a full QA cycle.",
+      "intensity": 2,
+      "length": 55
+    },
+    {
+      "id": "en-1-35",
+      "text": "Your comments are just English translations of bad code.",
+      "intensity": 2,
+      "length": 56
+    },
+    {
+      "id": "en-1-36",
+      "text": "You’ve turned `try/catch` into your entire architecture.",
+      "intensity": 2,
+      "length": 56
+    },
+    {
+      "id": "en-1-37",
+      "text": "You close JIRA tickets faster than you close memory leaks.",
+      "intensity": 2,
+      "length": 58
+    },
+    {
+      "id": "en-1-38",
+      "text": "Your coding mantra is ‘we’ll clean it up later’—and later never came.",
+      "intensity": 2,
+      "length": 69
+    },
+    {
+      "id": "en-1-39",
+      "text": "You treat every bug as a feature idea in disguise.",
+      "intensity": 2,
+      "length": 50
+    },
+    {
+      "id": "en-1-40",
+      "text": "Your commit messages are the real mystery of the project.",
+      "intensity": 2,
+      "length": 57
+    },
+    {
+      "id": "en-1-41",
+      "text": "You consider version control a suggestion, not a requirement.",
+      "intensity": 2,
+      "length": 61
+    },
+    {
+      "id": "en-1-42",
+      "text": "You fix race conditions by adding `setTimeout`.",
+      "intensity": 2,
+      "length": 47
+    },
+    {
+      "id": "en-1-43",
+      "text": "Your `package.json` has more dependencies than the project has features.",
+      "intensity": 2,
+      "length": 72
+    },
+    {
+      "id": "en-1-44",
+      "text": "You keep deprecated functions ‘just in case’ for five years.",
+      "intensity": 2,
+      "length": 60
+    },
+    {
+      "id": "en-1-45",
+      "text": "Your codebase is the reason git revert exists.",
+      "intensity": 2,
+      "length": 46
+    },
+    {
+      "id": "en-1-46",
+      "text": "You write TODOs like post-it notes in a hurricane.",
+      "intensity": 2,
+      "length": 50
+    },
+    {
+      "id": "en-1-47",
+      "text": "Your architecture diagram is just a big box labeled “stuff happens here”.",
+      "intensity": 2,
+      "length": 73
+    },
+    {
+      "id": "en-1-48",
+      "text": "You treat code smells like room freshener can fix them.",
+      "intensity": 2,
+      "length": 55
+    },
+    {
+      "id": "en-1-49",
+      "text": "Your PRs need a table of contents.",
+      "intensity": 2,
+      "length": 34
+    },
+    {
+      "id": "en-1-50",
+      "text": "You think “idk why it works but it works” is senior-level debugging.",
+      "intensity": 2,
+      "length": 68
+    },
+    {
+      "id": "en-1-51",
+      "text": "Your feature flags are just on/off switches for chaos.",
+      "intensity": 2,
+      "length": 54
+    },
+    {
+      "id": "en-1-52",
+      "text": "You use comments to apologize instead of explain.",
+      "intensity": 2,
+      "length": 49
+    },
+    {
+      "id": "en-1-53",
+      "text": "Your deployment strategy is “yolo and monitor Slack”.",
+      "intensity": 2,
+      "length": 53
+    },
+    {
+      "id": "en-1-54",
+      "text": "You measure success by how few people noticed the outage.",
+      "intensity": 2,
+      "length": 57
+    },
+    {
+      "id": "en-1-55",
+      "text": "Your code reads like a mystery novel with no ending.",
+      "intensity": 2,
+      "length": 52
+    },
+    {
+      "id": "en-1-56",
+      "text": "You name one file utils.js and then commit all your sins in it.",
+      "intensity": 2,
+      "length": 63
+    },
+    {
+      "id": "en-1-57",
+      "text": "Your logs are so noisy even grep gives up.",
+      "intensity": 2,
+      "length": 42
+    },
+    {
+      "id": "en-1-58",
+      "text": "You call duplication ‘future-proofing’.",
+      "intensity": 2,
+      "length": 39
+    },
+    {
+      "id": "en-1-59",
+      "text": "Your cron jobs are just scheduled surprises.",
+      "intensity": 2,
+      "length": 44
+    },
+    {
+      "id": "en-1-60",
+      "text": "You use !important in CSS like a panic button.",
+      "intensity": 2,
+      "length": 46
+    },
+    {
+      "id": "en-1-61",
+      "text": "Your design pattern is if-else-else-else-else.",
+      "intensity": 2,
+      "length": 46
+    },
+    {
+      "id": "en-1-62",
+      "text": "You think refactoring means moving files into a new folder.",
+      "intensity": 2,
+      "length": 59
+    },
+    {
+      "id": "en-1-63",
+      "text": "Your config is so messy, even YAML feels superior.",
+      "intensity": 2,
+      "length": 50
+    },
+    {
+      "id": "en-1-64",
+      "text": "You discover requirements only after deploying.",
+      "intensity": 2,
+      "length": 47
+    },
+    {
+      "id": "en-1-65",
+      "text": "Your rollback plan is “hope we don’t need one”.",
+      "intensity": 2,
+      "length": 47
+    },
+    {
+      "id": "en-1-66",
+      "text": "You use feature branches as long-term storage.",
+      "intensity": 2,
+      "length": 46
+    },
+    {
+      "id": "en-1-67",
+      "text": "Your JIRA tickets have better fiction than Netflix.",
+      "intensity": 2,
+      "length": 51
+    },
+    {
+      "id": "en-1-68",
+      "text": "You fix linter errors by disabling the rule.",
+      "intensity": 2,
+      "length": 44
+    },
+    {
+      "id": "en-1-69",
+      "text": "Your “helper” functions need their own helpers.",
+      "intensity": 2,
+      "length": 47
+    },
+    {
+      "id": "en-1-70",
+      "text": "You consider stack traces optional reading.",
+      "intensity": 2,
+      "length": 43
+    },
+    {
+      "id": "en-1-71",
+      "text": "Your MVP forgot the “viable” part.",
+      "intensity": 2,
+      "length": 34
+    },
+    {
+      "id": "en-1-72",
+      "text": "You use git push --force like a personality trait.",
+      "intensity": 2,
+      "length": 50
+    },
+    {
+      "id": "en-1-73",
+      "text": "Your sprint goal is “survive”.",
+      "intensity": 2,
+      "length": 30
+    },
+    {
+      "id": "en-1-74",
+      "text": "You think monorepo means “everything everywhere all at once”.",
+      "intensity": 2,
+      "length": 61
+    },
+    {
+      "id": "en-1-75",
+      "text": "Your coding style is race-condition-driven development.",
+      "intensity": 2,
+      "length": 55
+    },
+    {
+      "id": "en-1-76",
+      "text": "You write APIs that return “success”: false more than true.",
+      "intensity": 2,
+      "length": 59
+    },
+    {
+      "id": "en-1-77",
+      "text": "Your code reviews are just rubber-stamping your own mistakes.",
+      "intensity": 2,
+      "length": 61
+    },
+    {
+      "id": "en-1-78",
+      "text": "You treat cache invalidation as a myth.",
+      "intensity": 2,
+      "length": 39
+    },
+    {
+      "id": "en-1-79",
+      "text": "Your documentation is older than your dependencies.",
+      "intensity": 2,
+      "length": 51
+    },
+    {
+      "id": "en-1-80",
+      "text": "Your bug fixes are plot twists.",
+      "intensity": 2,
+      "length": 31
+    },
+    {
+      "id": "en-1-81",
+      "text": "You think “just one more commit” is a harmless phrase.",
+      "intensity": 2,
+      "length": 54
+    },
+    {
+      "id": "en-1-82",
+      "text": "Your services talk to each other more than your team does.",
+      "intensity": 2,
+      "length": 58
+    },
+    {
+      "id": "en-1-83",
+      "text": "You use comments instead of deleting dead code.",
+      "intensity": 2,
+      "length": 47
+    },
+    {
+      "id": "en-1-84",
+      "text": "Your onboarding guide is “ask around”.",
+      "intensity": 2,
+      "length": 38
+    },
+    {
+      "id": "en-1-85",
+      "text": "Your refactor created a legacy system in record time.",
+      "intensity": 2,
+      "length": 53
+    },
+    {
+      "id": "en-1-86",
+      "text": "You treat code style guides as light suggestions.",
+      "intensity": 2,
+      "length": 49
+    },
+    {
+      "id": "en-1-87",
+      "text": "Your idea of testing is ‘let the users find out’.",
+      "intensity": 2,
+      "length": 49
+    },
+    {
+      "id": "en-1-88",
+      "text": "Your backlog has more ghosts than features.",
+      "intensity": 2,
+      "length": 43
+    },
+    {
+      "id": "en-1-89",
+      "text": "Your ‘simple script’ starts its own microservice ecosystem.",
+      "intensity": 2,
+      "length": 59
+    },
+    {
+      "id": "en-1-90",
+      "text": "You use TODO as a long-term storage solution for guilt.",
+      "intensity": 2,
+      "length": 55
+    },
+    {
+      "id": "en-1-91",
+      "text": "Your debugger spends more time open than your editor.",
+      "intensity": 2,
+      "length": 53
+    },
+    {
+      "id": "en-1-92",
+      "text": "You consider copy-pasting from old projects as ‘knowledge reuse’.",
+      "intensity": 2,
+      "length": 65
+    },
+    {
+      "id": "en-1-93",
+      "text": "Your biggest dependency is luck.",
+      "intensity": 2,
+      "length": 32
+    },
+    {
+      "id": "en-1-94",
+      "text": "You don’t write spaghetti code, you write entire Italian restaurants.",
+      "intensity": 2,
+      "length": 69
+    },
+    {
+      "id": "en-1-95",
+      "text": "Your CI pipeline fails just from fear of your commits.",
+      "intensity": 2,
+      "length": 54
+    },
+    {
+      "id": "en-1-96",
+      "text": "Your error messages are like horoscopes: vague and unhelpful.",
+      "intensity": 2,
+      "length": 61
+    },
+    {
+      "id": "en-1-97",
+      "text": "You treat TypeScript like JavaScript with extra steps to ignore.",
+      "intensity": 2,
+      "length": 64
+    },
+    {
+      "id": "en-1-98",
+      "text": "Your database schema evolves faster than your documentation.",
+      "intensity": 2,
+      "length": 60
+    },
+    {
+      "id": "en-1-99",
+      "text": "Your hotfix needs its own hotfix.",
+      "intensity": 2,
+      "length": 33
+    },
+    {
+      "id": "en-1-100",
+      "text": "Your code comments raise more questions than answers.",
+      "intensity": 2,
+      "length": 53
+    },
+    {
+      "id": "en-1-101",
+      "text": "You write ‘FIXME’ and never ‘FIXED’.",
+      "intensity": 2,
+      "length": 36
+    },
+    {
+      "id": "en-1-102",
+      "text": "Your pull requests are longer than company policies.",
+      "intensity": 2,
+      "length": 52
+    },
+    {
+      "id": "en-1-103",
+      "text": "You add logs instead of understanding the problem.",
+      "intensity": 2,
+      "length": 50
+    },
+    {
+      "id": "en-1-104",
+      "text": "You treat code reviews as personal attacks and still don’t improve.",
+      "intensity": 2,
+      "length": 67
+    },
+    {
+      "id": "en-1-105",
+      "text": "Your local branch zoo should be a protected area.",
+      "intensity": 2,
+      "length": 49
+    },
+    {
+      "id": "en-1-106",
+      "text": "Your CSS breakpoints are emotional, not technical.",
+      "intensity": 2,
+      "length": 50
+    },
+    {
+      "id": "en-1-107",
+      "text": "You name functions like `doStuff` and expect respect.",
+      "intensity": 2,
+      "length": 53
+    },
+    {
+      "id": "en-1-108",
+      "text": "You only learn new tools when old ones break.",
+      "intensity": 2,
+      "length": 45
+    },
+    {
+      "id": "en-1-109",
+      "text": "Your best practice is whatever worked once at 3 AM.",
+      "intensity": 2,
+      "length": 51
+    },
+    {
+      "id": "en-1-110",
+      "text": "You push directly to main and call it ‘being efficient’.",
+      "intensity": 2,
+      "length": 56
+    },
+    {
+      "id": "en-1-111",
+      "text": "Your feature flags are just excuses for unfinished work.",
+      "intensity": 2,
+      "length": 56
+    },
+    {
+      "id": "en-1-112",
+      "text": "You brag about clean code while your linter cries in silence.",
+      "intensity": 2,
+      "length": 61
+    },
+    {
+      "id": "en-1-113",
+      "text": "You consider ‘works on my machine’ an acceptable status update.",
+      "intensity": 2,
+      "length": 63
+    },
+    {
+      "id": "en-1-114",
+      "text": "Your monolith wanted to be microservices but gave up.",
+      "intensity": 2,
+      "length": 53
+    },
+    {
+      "id": "en-1-115",
+      "text": "Your tests are so flaky they need their own mental health day.",
+      "intensity": 2,
+      "length": 62
+    },
+    {
+      "id": "en-1-116",
+      "text": "You call it a quick patch, the infra team calls it an incident.",
+      "intensity": 2,
+      "length": 63
+    },
+    {
+      "id": "en-1-117",
+      "text": "Your branching strategy is ‘hope for the best’.",
+      "intensity": 2,
+      "length": 47
+    },
+    {
+      "id": "en-1-118",
+      "text": "You use comments to argue with your future self.",
+      "intensity": 2,
+      "length": 48
+    },
+    {
+      "id": "en-1-119",
+      "text": "Your codebase is a museum of half-implemented ideas.",
+      "intensity": 2,
+      "length": 52
+    },
+    {
+      "id": "en-1-120",
+      "text": "You abuse regex like it personally wronged you.",
+      "intensity": 2,
+      "length": 47
+    },
+    {
+      "id": "en-1-121",
+      "text": "Your build time is longer than your focus span.",
+      "intensity": 2,
+      "length": 47
+    },
+    {
+      "id": "en-1-122",
+      "text": "You consider logging everything ‘for observability’ and then never look.",
+      "intensity": 2,
+      "length": 72
+    },
+    {
+      "id": "en-1-123",
+      "text": "You write ORMs like it’s 2006 and SQL never existed.",
+      "intensity": 2,
+      "length": 52
+    },
+    {
+      "id": "en-1-124",
+      "text": "Your favorite design pattern is ‘God object’.",
+      "intensity": 2,
+      "length": 45
+    },
+    {
+      "id": "en-1-125",
+      "text": "You call magic numbers ‘project constants’.",
+      "intensity": 2,
+      "length": 43
+    },
+    {
+      "id": "en-1-126",
+      "text": "Your retry logic is just `setTimeout` and prayer.",
+      "intensity": 2,
+      "length": 49
+    },
+    {
+      "id": "en-1-127",
+      "text": "You delete code instead of understanding what it did.",
+      "intensity": 2,
+      "length": 53
+    },
+    {
+      "id": "en-1-128",
+      "text": "Your CLI app needs a tutorial just to exit.",
+      "intensity": 2,
+      "length": 43
+    },
+    {
+      "id": "en-1-129",
+      "text": "You treat warnings as decorations in your IDE.",
+      "intensity": 2,
+      "length": 46
+    },
+    {
+      "id": "en-1-130",
+      "text": "Your configuration files are side quests with no reward.",
+      "intensity": 2,
+      "length": 56
+    },
+    {
+      "id": "en-1-131",
+      "text": "You run `npm audit fix --force` and hope for the best.",
+      "intensity": 2,
+      "length": 54
+    },
+    {
+      "id": "en-1-132",
+      "text": "Your container images are heavier than your excuses.",
+      "intensity": 2,
+      "length": 52
+    },
+    {
+      "id": "en-1-133",
+      "text": "You build dashboards nobody reads including you.",
+      "intensity": 2,
+      "length": 48
+    },
+    {
+      "id": "en-1-134",
+      "text": "Your rate limiting strategy is ‘we’ll see’.",
+      "intensity": 2,
+      "length": 43
+    },
+    {
+      "id": "en-1-135",
+      "text": "You call 500 errors ‘temporary downtime’.",
+      "intensity": 2,
+      "length": 41
+    },
+    {
+      "id": "en-1-136",
+      "text": "Your staging environment is TikTok: always under construction.",
+      "intensity": 2,
+      "length": 62
+    },
+    {
+      "id": "en-1-137",
+      "text": "You trust ‘auto-merge’ more than your own understanding.",
+      "intensity": 2,
+      "length": 56
+    },
+    {
+      "id": "en-1-138",
+      "text": "Your exception messages are just ‘Error happened’.",
+      "intensity": 2,
+      "length": 50
+    },
+    {
+      "id": "en-1-139",
+      "text": "You write encrypted-looking code by accident.",
+      "intensity": 2,
+      "length": 45
+    },
+    {
+      "id": "en-1-140",
+      "text": "You treat git rebase as black magic and avoid it.",
+      "intensity": 2,
+      "length": 49
+    },
+    {
+      "id": "en-1-141",
+      "text": "Your code metrics are top tier… in all the wrong categories.",
+      "intensity": 2,
+      "length": 60
+    },
+    {
+      "id": "en-1-142",
+      "text": "You use environment variables like global trash bins.",
+      "intensity": 2,
+      "length": 53
+    },
+    {
+      "id": "en-1-143",
+      "text": "You call copy-pasting from ChatGPT ‘pair programming’.",
+      "intensity": 2,
+      "length": 54
+    },
+    {
+      "id": "en-1-144",
+      "text": "Your ‘junior mistakes’ lasted well into your senior title.",
+      "intensity": 2,
+      "length": 58
+    },
+    {
+      "id": "en-1-145",
+      "text": "You consider JSON a database if it’s big enough.",
+      "intensity": 2,
+      "length": 48
+    },
+    {
+      "id": "en-1-146",
+      "text": "Your dev tools have more plugins than your app has users.",
+      "intensity": 2,
+      "length": 57
+    },
+    {
+      "id": "en-1-147",
+      "text": "You do breaking changes on patch versions.",
+      "intensity": 2,
+      "length": 42
+    },
+    {
+      "id": "en-1-148",
+      "text": "Your API versioning strategy is screaming.",
+      "intensity": 2,
+      "length": 42
+    },
+    {
+      "id": "en-1-149",
+      "text": "You think observability means adding one more dashboard.",
+      "intensity": 2,
+      "length": 56
+    },
+    {
+      "id": "en-1-150",
+      "text": "Your IDE themes are more organized than your repo.",
+      "intensity": 2,
+      "length": 50
+    },
+    {
+      "id": "en-1-151",
+      "text": "You commit generated files and call it necessary.",
+      "intensity": 2,
+      "length": 49
+    },
+    {
+      "id": "en-1-152",
+      "text": "Your feature branches live longer than some startups.",
+      "intensity": 2,
+      "length": 53
+    },
+    {
+      "id": "en-1-153",
+      "text": "You use feature toggles as permanent configuration.",
+      "intensity": 2,
+      "length": 51
+    },
+    {
+      "id": "en-1-154",
+      "text": "Your PR description is just ‘small change’ with +2,000 lines.",
+      "intensity": 2,
+      "length": 61
+    },
+    {
+      "id": "en-1-155",
+      "text": "You throw hardware at problems your code created.",
+      "intensity": 2,
+      "length": 49
+    },
+    {
+      "id": "en-1-156",
+      "text": "Your `README` says ‘WIP’ since day one.",
+      "intensity": 2,
+      "length": 39
+    },
+    {
+      "id": "en-1-157",
+      "text": "You think `chore:` is the right prefix for every commit.",
+      "intensity": 2,
+      "length": 56
+    },
+    {
+      "id": "en-1-158",
+      "text": "Your code review feedback is just ‘LGTM’ on everything.",
+      "intensity": 2,
+      "length": 55
+    },
+    {
+      "id": "en-1-159",
+      "text": "You wrap everything in `try/catch` like bubble wrap.",
+      "intensity": 2,
+      "length": 52
+    },
+    {
+      "id": "en-1-160",
+      "text": "You treat tests like optional content in a game.",
+      "intensity": 2,
+      "length": 48
+    },
+    {
+      "id": "en-1-161",
+      "text": "Your roadmap is just your Slack DMs.",
+      "intensity": 2,
+      "length": 36
+    },
+    {
+      "id": "en-1-162",
+      "text": "You introduce new tech stack every sprint for ‘innovation’.",
+      "intensity": 2,
+      "length": 59
+    },
+    {
+      "id": "en-1-163",
+      "text": "Your airpods are more up to date than your dependencies.",
+      "intensity": 2,
+      "length": 56
+    },
+    {
+      "id": "en-1-164",
+      "text": "You fix performance issues by adding a loading spinner.",
+      "intensity": 2,
+      "length": 55
+    },
+    {
+      "id": "en-1-165",
+      "text": "You call hacky workarounds ‘engineering solutions’.",
+      "intensity": 2,
+      "length": 51
+    },
+    {
+      "id": "en-1-166",
+      "text": "Your scripts require reading source just to run.",
+      "intensity": 2,
+      "length": 48
+    },
+    {
+      "id": "en-1-167",
+      "text": "You use `any` in TypeScript like it’s a lifestyle.",
+      "intensity": 2,
+      "length": 50
+    },
+    {
+      "id": "en-1-168",
+      "text": "Your commit history tells a story of confusion and panic.",
+      "intensity": 2,
+      "length": 57
+    },
+    {
+      "id": "en-1-169",
+      "text": "You design APIs that need a PhD in guessing.",
+      "intensity": 2,
+      "length": 44
+    },
+    {
+      "id": "en-1-170",
+      "text": "You consider merge conflicts part of the creative process.",
+      "intensity": 2,
+      "length": 58
+    },
+    {
+      "id": "en-1-171",
+      "text": "Your code smells so bad the garbage collector resigns.",
+      "intensity": 2,
+      "length": 54
+    },
+    {
+      "id": "en-1-172",
+      "text": "You write helper functions that help no one.",
+      "intensity": 2,
+      "length": 44
+    },
+    {
+      "id": "en-1-173",
+      "text": "You think lint errors are just colorful suggestions.",
+      "intensity": 2,
+      "length": 52
+    },
+    {
+      "id": "en-1-174",
+      "text": "Your production logs are louder than your metrics.",
+      "intensity": 2,
+      "length": 50
+    },
+    {
+      "id": "en-1-175",
+      "text": "You solve every problem with another dependency.",
+      "intensity": 2,
+      "length": 48
+    },
+    {
+      "id": "en-1-176",
+      "text": "You comment out code instead of deleting like you’ll miss it.",
+      "intensity": 2,
+      "length": 61
+    },
+    {
+      "id": "en-1-177",
+      "text": "You treat `console.error` as your only monitoring tool.",
+      "intensity": 2,
+      "length": 55
+    },
+    {
+      "id": "en-1-178",
+      "text": "Your `TODO` list is longer than your resume.",
+      "intensity": 2,
+      "length": 44
+    },
+    {
+      "id": "en-1-179",
+      "text": "You unit test happy paths and pray about the rest.",
+      "intensity": 2,
+      "length": 50
+    },
+    {
+      "id": "en-1-180",
+      "text": "You configure tools you don’t fully understand and ship anyway.",
+      "intensity": 2,
+      "length": 63
+    },
+    {
+      "id": "en-1-181",
+      "text": "Your coding speed is fast, your code quality is a slow accident.",
+      "intensity": 2,
+      "length": 64
+    },
+    {
+      "id": "en-1-182",
+      "text": "You call duplicated logic ‘business rules’.",
+      "intensity": 2,
+      "length": 43
+    },
+    {
+      "id": "en-1-183",
+      "text": "Your code review comments come two months late.",
+      "intensity": 2,
+      "length": 47
+    },
+    {
+      "id": "en-1-184",
+      "text": "You’re the reason the sprint retro has extra time scheduled.",
+      "intensity": 2,
+      "length": 60
+    },
+    {
+      "id": "en-1-185",
+      "text": "Your ‘MVP’ is an entire platform missing the ‘V’.",
+      "intensity": 2,
+      "length": 49
+    },
+    {
+      "id": "en-1-186",
+      "text": "You name branches after your feelings, not features.",
+      "intensity": 2,
+      "length": 52
+    },
+    {
+      "id": "en-1-187",
+      "text": "You still debug by printing variables one by one.",
+      "intensity": 2,
+      "length": 49
+    },
+    {
+      "id": "en-1-188",
+      "text": "You learned git by trial, error, and permanent damage.",
+      "intensity": 2,
+      "length": 54
+    },
+    {
+      "id": "en-1-189",
+      "text": "Your uptime target is ‘hopefully not zero’.",
+      "intensity": 2,
+      "length": 43
+    },
+    {
+      "id": "en-1-190",
+      "text": "You prefer hotfixes over planning like a chaos consultant.",
+      "intensity": 2,
+      "length": 58
+    },
+    {
+      "id": "en-1-191",
+      "text": "Your code runs... away from best practices.",
+      "intensity": 2,
+      "length": 43
+    },
+    {
+      "id": "en-1-192",
+      "text": "You write comments like you’re hiding evidence.",
+      "intensity": 2,
+      "length": 47
+    },
+    {
+      "id": "en-1-193",
+      "text": "Your commit messages belong in true crime documentaries.",
+      "intensity": 2,
+      "length": 56
+    },
+    {
+      "id": "en-1-194",
+      "text": "Your code style is ‘CTRL+C, CTRL+V-driven development’.",
+      "intensity": 2,
+      "length": 55
+    },
+    {
+      "id": "en-1-195",
+      "text": "You don’t fix bugs, you just comment out features.",
+      "intensity": 2,
+      "length": 50
+    },
+    {
+      "id": "en-1-196",
+      "text": "Your app has more crashes than a bumper car arena.",
+      "intensity": 2,
+      "length": 50
+    },
+    {
+      "id": "en-1-197",
+      "text": "Your debug process is just adding console.log everywhere.",
+      "intensity": 2,
+      "length": 57
+    },
+    {
+      "id": "en-1-198",
+      "text": "You write spaghetti code and then pour cheese on top by refactoring.",
+      "intensity": 2,
+      "length": 68
+    },
+    {
+      "id": "en-1-199",
+      "text": "Your pull requests need a content warning.",
+      "intensity": 2,
+      "length": 42
+    },
+    {
+      "id": "en-1-200",
+      "text": "Your function names are longer than your attention span.",
+      "intensity": 2,
+      "length": 56
+    },
+    {
+      "id": "en-1-201",
+      "text": "You treat production like a test environment.",
+      "intensity": 2,
+      "length": 45
+    },
+    {
+      "id": "en-1-202",
+      "text": "Your code review comments are just ‘works on my machine’.",
+      "intensity": 2,
+      "length": 57
+    },
+    {
+      "id": "en-1-203",
+      "text": "You use git like a time machine with no return button.",
+      "intensity": 2,
+      "length": 54
+    },
+    {
+      "id": "en-1-204",
+      "text": "Your ‘quick fix’ just created a long-term relationship with a bug.",
+      "intensity": 2,
+      "length": 66
+    },
+    {
+      "id": "en-1-205",
+      "text": "You name variables like you’re hiding them from the police.",
+      "intensity": 2,
+      "length": 59
+    },
+    {
+      "id": "en-1-206",
+      "text": "Your stack traces are longer than your documentation.",
+      "intensity": 2,
+      "length": 53
+    },
+    {
+      "id": "en-1-207",
+      "text": "You don’t refactor, you just rename the file.",
+      "intensity": 2,
+      "length": 45
+    },
+    {
+      "id": "en-1-208",
+      "text": "Your tests are as imaginary as your deadlines.",
+      "intensity": 2,
+      "length": 46
+    },
+    {
+      "id": "en-1-209",
+      "text": "You broke the build so hard the CI needs therapy.",
+      "intensity": 2,
+      "length": 49
+    },
+    {
+      "id": "en-1-210",
+      "text": "Your API responses are more confusing than your commit history.",
+      "intensity": 2,
+      "length": 63
+    },
+    {
+      "id": "en-1-211",
+      "text": "You write comments explaining bugs instead of fixing them.",
+      "intensity": 2,
+      "length": 58
+    },
+    {
+      "id": "en-1-212",
+      "text": "Your coding motto is ‘if it compiles, ship it’.",
+      "intensity": 2,
+      "length": 47
+    },
+    {
+      "id": "en-1-213",
+      "text": "Your code coverage is just one lonely test someone wrote by accident.",
+      "intensity": 2,
+      "length": 69
+    },
+    {
+      "id": "en-1-214",
+      "text": "Your CSS has more !important than actual importance.",
+      "intensity": 2,
+      "length": 52
+    },
+    {
+      "id": "en-1-215",
+      "text": "You use async/await like seasoning: randomly and in excess.",
+      "intensity": 2,
+      "length": 59
+    },
+    {
+      "id": "en-1-216",
+      "text": "Your database queries are a denial-of-service attack on yourself.",
+      "intensity": 2,
+      "length": 65
+    },
+    {
+      "id": "en-1-217",
+      "text": "You treat warnings like background noise.",
+      "intensity": 2,
+      "length": 41
+    },
+    {
+      "id": "en-1-218",
+      "text": "Your linter cried and left the project.",
+      "intensity": 2,
+      "length": 39
+    },
+    {
+      "id": "en-1-219",
+      "text": "You need a GPS to navigate your own codebase.",
+      "intensity": 2,
+      "length": 45
+    },
+    {
+      "id": "en-1-220",
+      "text": "Your design pattern is called ‘Chaos Singleton’.",
+      "intensity": 2,
+      "length": 48
+    },
+    {
+      "id": "en-1-221",
+      "text": "Your error handling is just ‘try… catch(e) { }’.",
+      "intensity": 2,
+      "length": 48
+    },
+    {
+      "id": "en-1-222",
+      "text": "You fix bugs by rebooting the whole server farm.",
+      "intensity": 2,
+      "length": 48
+    },
+    {
+      "id": "en-1-223",
+      "text": "Your laptop fan spins faster than your brain during code review.",
+      "intensity": 2,
+      "length": 64
+    },
+    {
+      "id": "en-1-224",
+      "text": "Your favorite data structure is ‘some random JSON we got from somewhere’.",
+      "intensity": 2,
+      "length": 73
+    },
+    {
+      "id": "en-1-225",
+      "text": "You measure performance by ‘seems fine on my machine’.",
+      "intensity": 2,
+      "length": 54
+    },
+    {
+      "id": "en-1-226",
+      "text": "You write code like you’re being chased.",
+      "intensity": 2,
+      "length": 40
+    },
+    {
+      "id": "en-1-227",
+      "text": "Your Docker containers have more layers than your excuses.",
+      "intensity": 2,
+      "length": 58
+    },
+    {
+      "id": "en-1-228",
+      "text": "You treat versioning like a lottery: sometimes it works.",
+      "intensity": 2,
+      "length": 56
+    },
+    {
+      "id": "en-1-229",
+      "text": "Your Git history looks like a keyboard smash.",
+      "intensity": 2,
+      "length": 45
+    },
+    {
+      "id": "en-1-230",
+      "text": "You push to main like it’s a personal diary.",
+      "intensity": 2,
+      "length": 44
+    },
+    {
+      "id": "en-1-231",
+      "text": "Your documentation is just a single line: ‘TODO: write docs’.",
+      "intensity": 2,
+      "length": 61
+    },
+    {
+      "id": "en-1-232",
+      "text": "Your CLI flags are a guessing game.",
+      "intensity": 2,
+      "length": 35
+    },
+    {
+      "id": "en-1-233",
+      "text": "You reinvent the wheel and still make it a square.",
+      "intensity": 2,
+      "length": 50
+    },
+    {
+      "id": "en-1-234",
+      "text": "You use Stack Overflow like life support.",
+      "intensity": 2,
+      "length": 41
+    },
+    {
+      "id": "en-1-235",
+      "text": "Your microservices are just macro problems.",
+      "intensity": 2,
+      "length": 43
+    },
+    {
+      "id": "en-1-236",
+      "text": "You commit directly to production and call it ‘continuous delivery’.",
+      "intensity": 2,
+      "length": 68
+    },
+    {
+      "id": "en-1-237",
+      "text": "Your architecture diagrams are just boxes labeled ‘stuff’.",
+      "intensity": 2,
+      "length": 58
+    },
+    {
+      "id": "en-1-238",
+      "text": "You debug in production using the users as QA.",
+      "intensity": 2,
+      "length": 46
+    },
+    {
+      "id": "en-1-239",
+      "text": "Your ‘temporary fix’ just celebrated its first birthday.",
+      "intensity": 2,
+      "length": 56
+    },
+    {
+      "id": "en-1-240",
+      "text": "You use tab width like a personality trait.",
+      "intensity": 2,
+      "length": 43
+    },
+    {
+      "id": "en-1-241",
+      "text": "Your logs are just ‘here’ and ‘there’ messages with no context.",
+      "intensity": 2,
+      "length": 63
+    },
+    {
+      "id": "en-1-242",
+      "text": "You write unit tests that only assert true === true.",
+      "intensity": 2,
+      "length": 52
+    },
+    {
+      "id": "en-1-243",
+      "text": "Your feature flags are permanent residents.",
+      "intensity": 2,
+      "length": 43
+    },
+    {
+      "id": "en-1-244",
+      "text": "You created technical debt with compound interest.",
+      "intensity": 2,
+      "length": 50
+    },
+    {
+      "id": "en-1-245",
+      "text": "You write TODO comments like they’re motivational quotes.",
+      "intensity": 2,
+      "length": 57
+    },
+    {
+      "id": "en-1-246",
+      "text": "Your environment variables are copy-pasted between projects with hope.",
+      "intensity": 2,
+      "length": 70
+    },
+    {
+      "id": "en-1-247",
+      "text": "You handle edge cases by pretending they don’t exist.",
+      "intensity": 2,
+      "length": 53
+    },
+    {
+      "id": "en-1-248",
+      "text": "Your fix introduced three new bugs and a side quest.",
+      "intensity": 2,
+      "length": 52
+    },
+    {
+      "id": "en-1-249",
+      "text": "You think ‘code freeze’ means stopping your IDE.",
+      "intensity": 2,
+      "length": 48
+    },
+    {
+      "id": "en-1-250",
+      "text": "Your local setup takes longer than your actual work.",
+      "intensity": 2,
+      "length": 52
+    },
+    {
+      "id": "en-1-251",
+      "text": "You treat merge conflicts like horror movies: you look away.",
+      "intensity": 2,
+      "length": 60
+    },
+    {
+      "id": "en-1-252",
+      "text": "Your hotfix is cold and broken.",
+      "intensity": 2,
+      "length": 31
+    },
+    {
+      "id": "en-1-253",
+      "text": "You write APIs that even you don’t understand after a week.",
+      "intensity": 2,
+      "length": 59
+    },
+    {
+      "id": "en-1-254",
+      "text": "Your UX decisions were made by a random number generator.",
+      "intensity": 2,
+      "length": 57
+    },
+    {
+      "id": "en-1-255",
+      "text": "Your Jenkins pipeline has more red than a horror movie poster.",
+      "intensity": 2,
+      "length": 62
+    },
+    {
+      "id": "en-1-256",
+      "text": "You store passwords like they’re inspirational quotes in plain text.",
+      "intensity": 2,
+      "length": 68
+    },
+    {
+      "id": "en-1-257",
+      "text": "Your branch naming is ‘new-new-final-final-v2’.",
+      "intensity": 2,
+      "length": 47
+    },
+    {
+      "id": "en-1-258",
+      "text": "You treat documentation links as optional side quests.",
+      "intensity": 2,
+      "length": 54
+    },
+    {
+      "id": "en-1-259",
+      "text": "Your CSS grid looks like a broken Tetris game.",
+      "intensity": 2,
+      "length": 46
+    },
+    {
+      "id": "en-1-260",
+      "text": "You think ‘DRY’ means ‘Don’t Refactor Yet’.",
+      "intensity": 2,
+      "length": 43
+    },
+    {
+      "id": "en-1-261",
+      "text": "Your coding style guide is just vibes.",
+      "intensity": 2,
+      "length": 38
+    },
+    {
+      "id": "en-1-262",
+      "text": "You add libraries to solve problems you don’t have.",
+      "intensity": 2,
+      "length": 51
+    },
+    {
+      "id": "en-1-263",
+      "text": "Your npm install takes longer than the meeting you were avoiding.",
+      "intensity": 2,
+      "length": 65
+    },
+    {
+      "id": "en-1-264",
+      "text": "You debug JavaScript by staring at the screen harder.",
+      "intensity": 2,
+      "length": 53
+    },
+    {
+      "id": "en-1-265",
+      "text": "You believe ‘console.log-driven development’ is a valid methodology.",
+      "intensity": 2,
+      "length": 68
+    },
+    {
+      "id": "en-1-266",
+      "text": "Your React components are monoliths with trust issues.",
+      "intensity": 2,
+      "length": 54
+    },
+    {
+      "id": "en-1-267",
+      "text": "You use global state like it’s a trash bin.",
+      "intensity": 2,
+      "length": 43
+    },
+    {
+      "id": "en-1-268",
+      "text": "Your 500 errors should come with a jump scare warning.",
+      "intensity": 2,
+      "length": 54
+    },
+    {
+      "id": "en-1-269",
+      "text": "You build dark mode before login works.",
+      "intensity": 2,
+      "length": 39
+    },
+    {
+      "id": "en-1-270",
+      "text": "Your code smells like it skipped code review for years.",
+      "intensity": 2,
+      "length": 55
+    },
+    {
+      "id": "en-1-271",
+      "text": "You’ve turned ‘quick hack’ into a permanent design pattern.",
+      "intensity": 2,
+      "length": 59
+    },
+    {
+      "id": "en-1-272",
+      "text": "Your backlog is just a graveyard of forgotten ideas.",
+      "intensity": 2,
+      "length": 52
+    },
+    {
+      "id": "en-1-273",
+      "text": "You use TODO as a long-term storage solution.",
+      "intensity": 2,
+      "length": 45
+    },
+    {
+      "id": "en-1-274",
+      "text": "Your API docs are hidden in a Notion page nobody can find.",
+      "intensity": 2,
+      "length": 58
+    },
+    {
+      "id": "en-1-275",
+      "text": "You deploy on Friday like you enjoy chaos.",
+      "intensity": 2,
+      "length": 42
+    },
+    {
+      "id": "en-1-276",
+      "text": "Your ‘refactor’ was just renaming variables to ‘temp’ and ‘data2’.",
+      "intensity": 2,
+      "length": 66
+    },
+    {
+      "id": "en-1-277",
+      "text": "You write config files that require an archeological dig to understand.",
+      "intensity": 2,
+      "length": 71
+    },
+    {
+      "id": "en-1-278",
+      "text": "Your JSON structure is a matryoshka doll of confusion.",
+      "intensity": 2,
+      "length": 54
+    },
+    {
+      "id": "en-1-279",
+      "text": "You think rate limiting is about your coffee intake.",
+      "intensity": 2,
+      "length": 52
+    },
+    {
+      "id": "en-1-280",
+      "text": "You’ve got more feature flags than actual features.",
+      "intensity": 2,
+      "length": 51
+    },
+    {
+      "id": "en-1-281",
+      "text": "Your CLI tool needs a manual just to print help.",
+      "intensity": 2,
+      "length": 48
+    },
+    {
+      "id": "en-1-282",
+      "text": "You treat null checks like optional DLC.",
+      "intensity": 2,
+      "length": 40
+    },
+    {
+      "id": "en-1-283",
+      "text": "Your exceptions handle you, not the other way round.",
+      "intensity": 2,
+      "length": 52
+    },
+    {
+      "id": "en-1-284",
+      "text": "You log ‘something went wrong’ and call it observability.",
+      "intensity": 2,
+      "length": 57
+    },
+    {
+      "id": "en-1-285",
+      "text": "Your project setup involves three ancient scripts and a sacrifice.",
+      "intensity": 2,
+      "length": 66
+    },
+    {
+      "id": "en-1-286",
+      "text": "You named your repo ‘new-project’ and never changed it.",
+      "intensity": 2,
+      "length": 55
+    },
+    {
+      "id": "en-1-287",
+      "text": "Your CI/CD stands for ‘Constant Incidents / Constant Damage’.",
+      "intensity": 2,
+      "length": 61
+    },
+    {
+      "id": "en-1-288",
+      "text": "You keep production secrets in a file called not-secrets.txt.",
+      "intensity": 2,
+      "length": 61
+    },
+    {
+      "id": "en-1-289",
+      "text": "Your OAuth implementation locks out even you.",
+      "intensity": 2,
+      "length": 45
+    },
+    {
+      "id": "en-1-290",
+      "text": "You use timeouts as business logic.",
+      "intensity": 2,
+      "length": 35
+    },
+    {
+      "id": "en-1-291",
+      "text": "Your ‘simple script’ now needs its own architecture diagram.",
+      "intensity": 2,
+      "length": 60
+    },
+    {
+      "id": "en-1-292",
+      "text": "You made a helper function that helps nothing.",
+      "intensity": 2,
+      "length": 46
+    },
+    {
+      "id": "en-1-293",
+      "text": "You’re the reason the comment says ‘DO NOT TOUCH THIS CODE’.",
+      "intensity": 2,
+      "length": 60
+    },
+    {
+      "id": "en-1-294",
+      "text": "Your idea of optimization is upgrading RAM.",
+      "intensity": 2,
+      "length": 43
+    },
+    {
+      "id": "en-1-295",
+      "text": "When you say ‘one last change’, version control starts shaking.",
+      "intensity": 2,
+      "length": 63
+    },
+    {
+      "id": "en-1-296",
+      "text": "You didn’t just break the build, you broke team morale.",
+      "intensity": 2,
+      "length": 55
+    },
+    {
+      "id": "en-1-297",
+      "text": "Your test suite fails more than your Wi‑Fi.",
+      "intensity": 2,
+      "length": 43
+    },
+    {
+      "id": "en-1-298",
+      "text": "You treat error messages as gentle suggestions.",
+      "intensity": 2,
+      "length": 47
+    },
+    {
+      "id": "en-1-299",
+      "text": "Your mocks have more logic than your production code.",
+      "intensity": 2,
+      "length": 53
+    }
+  ]
+}

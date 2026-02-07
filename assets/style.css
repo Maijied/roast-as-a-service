@@ -1,0 +1,324 @@
+:root {
+  --bg: #020617;
+  --bg-elevated: #020617;
+  --card: #020617;
+  --border-subtle: #1e293b;
+  --accent: #f97316;
+  --accent-soft: rgba(249,115,22,0.18);
+  --accent-2: #ec4899;
+  --text-main: #e5e7eb;
+  --text-muted: #9ca3af;
+  --text-soft: #6b7280;
+  --terminal-bg: #020617;
+  --terminal-border: #1f2933;
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text",
+    "Segoe UI", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: radial-gradient(circle at top, #0f172a 0, #020617 52%);
+  color: var(--text-main);
+}
+
+.shell {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 24px 16px 40px;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: stretch;
+  justify-content: space-between;
+  margin-top: 12px;
+  margin-bottom: 32px;
+}
+
+.hero-text {
+  flex: 1 1 320px;
+  min-width: 0;
+}
+
+.hero-card {
+  flex: 1 1 320px;
+  max-width: 460px;
+  background: linear-gradient(135deg, rgba(15,23,42,0.9), rgba(15,23,42,0.7));
+  border-radius: 18px;
+  border: 1px solid rgba(148,163,184,0.18);
+  box-shadow:
+    0 20px 40px rgba(15,23,42,0.8),
+    0 0 0 1px rgba(15,23,42,0.8);
+  overflow: hidden;
+}
+
+h1 {
+  font-size: clamp(2.1rem, 3vw, 2.6rem);
+  letter-spacing: -0.04em;
+  margin: 0 0 8px;
+}
+
+.subtitle {
+  margin: 0 0 18px;
+  color: var(--text-muted);
+  max-width: 480px;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  padding: 2px 10px;
+  border-radius: 999px;
+  background: rgba(249,115,22,0.15);
+  color: #fed7aa;
+  border: 1px solid rgba(249,115,22,0.5);
+  margin-left: 8px;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  border-radius: 999px;
+  padding: 0.7rem 1.6rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.12s ease-out, box-shadow 0.12s ease-out, opacity 0.12s;
+}
+
+.btn.primary {
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  color: white;
+  box-shadow:
+    0 10px 25px rgba(249,115,22,0.35),
+    0 0 0 1px rgba(248,250,252,0.04);
+}
+
+.btn.primary:hover {
+  transform: translateY(-1px);
+  opacity: 0.94;
+}
+
+.btn.ghost {
+  background: rgba(15,23,42,0.7);
+  color: var(--text-main);
+  border: 1px solid rgba(148,163,184,0.5);
+}
+
+.btn.ghost:hover {
+  background: rgba(15,23,42,0.9);
+}
+
+.meta {
+  margin-top: 4px;
+  font-size: 0.85rem;
+  color: var(--text-soft);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--terminal-border);
+  background: radial-gradient(circle at top left, #111827, #020617);
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.dot.red { background: #f97373; }
+.dot.amber { background: #fbbf24; }
+.dot.green { background: #34d399; }
+
+.card-title {
+  margin-left: auto;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--text-soft);
+}
+
+.terminal {
+  margin: 0;
+  font-family: "SF Mono", ui-monospace, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  font-size: 0.85rem;
+  background: var(--terminal-bg);
+  padding: 16px;
+  min-height: 140px;
+  white-space: pre-wrap;
+  border-radius: 0 0 18px 18px;
+  border-top: 1px solid rgba(15,23,42,0.4);
+}
+
+main {
+  margin-top: 8px;
+}
+
+.section {
+  margin-bottom: 32px;
+}
+
+.section h2 {
+  margin: 0 0 6px;
+  font-size: 1.25rem;
+}
+
+.section p {
+  margin: 0 0 14px;
+  color: var(--text-muted);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 14px;
+}
+
+.card {
+  background: rgba(15,23,42,0.85);
+  border-radius: 16px;
+  border: 1px solid var(--border-subtle);
+  padding: 14px 14px 16px;
+}
+
+.card h3 {
+  margin: 0 0 6px;
+  font-size: 1rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 0.92rem;
+}
+
+.section-accent {
+  border-radius: 18px;
+  padding: 18px 16px 20px;
+  background: radial-gradient(circle at top left, rgba(249,115,22,0.09), rgba(15,23,42,0.96));
+  border: 1px solid rgba(249,115,22,0.25);
+  box-shadow: 0 18px 40px rgba(15,23,42,0.8);
+}
+
+.section-accent h2 {
+  font-size: 1.3rem;
+}
+
+.arch-grid {
+  margin-top: 10px;
+}
+
+.arch-card {
+  background: rgba(15,23,42,0.96);
+  border-radius: 14px;
+  border: 1px solid rgba(148,163,184,0.4);
+}
+
+.arch-card h3 {
+  font-size: 0.98rem;
+}
+
+.arch-card p {
+  font-size: 0.9rem;
+}
+
+.code-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 14px;
+}
+
+@media (min-width: 840px) {
+  .code-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.code-card {
+  background: rgba(15,23,42,0.9);
+  border-radius: 14px;
+  border: 1px solid var(--border-subtle);
+  overflow: hidden;
+}
+
+.code-card h3 {
+  margin: 10px 12px;
+  font-size: 0.96rem;
+}
+
+.code-card pre {
+  margin: 0;
+  padding: 10px 12px 12px;
+  background: #020617;
+  font-family: "SF Mono", ui-monospace, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  font-size: 0.8rem;
+  overflow-x: auto;
+}
+
+.share-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  text-decoration: none;
+  background: rgba(15,23,42,0.9);
+  color: var(--text-main);
+  border: 1px solid rgba(148,163,184,0.6);
+}
+
+.share-btn:hover {
+  background: rgba(15,23,42,1);
+}
+
+.footer {
+  margin-top: 32px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(15,23,42,0.9);
+  font-size: 0.8rem;
+  color: var(--text-soft);
+}
+
+.footer a {
+  color: #93c5fd;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+code {
+  font-family: "SF Mono", ui-monospace, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  font-size: 0.85em;
+}

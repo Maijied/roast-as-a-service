@@ -1,0 +1,1500 @@
+{
+  "language": "bn",
+  "shard": 1,
+  "total_shards": 1,
+  "count": 248,
+  "tags": [
+    "dev",
+    "general"
+  ],
+  "roasts": [
+    {
+      "id": "bn-1-1",
+      "text": "তুই কোড লিখিস নাকি উপন্যাস?",
+      "intensity": 2,
+      "length": 27
+    },
+    {
+      "id": "bn-1-2",
+      "text": "তোর bug fix করতে গিয়ে debugger-ও burn out হয়ে গেছে।",
+      "intensity": 2,
+      "length": 53
+    },
+    {
+      "id": "bn-1-3",
+      "text": "তোর commit দেখে git-ও regret করে।",
+      "intensity": 2,
+      "length": 33
+    },
+    {
+      "id": "bn-1-4",
+      "text": "তোর code review মানে group therapy session।",
+      "intensity": 2,
+      "length": 43
+    },
+    {
+      "id": "bn-1-5",
+      "text": "তুই sleep mode-এ থাকা CPU-এর থেকেও কম কাজ করিস।",
+      "intensity": 2,
+      "length": 47
+    },
+    {
+      "id": "bn-1-6",
+      "text": "তোর কোড দেখে মনে হয়, কেউ production-এ লাইভ experiment চালাচ্ছে।",
+      "intensity": 2,
+      "length": 64
+    },
+    {
+      "id": "bn-1-7",
+      "text": "তুই bug fix না, bug relocation করিস — এক জায়গা থেকে আরেক জায়গায়।",
+      "intensity": 2,
+      "length": 67
+    },
+    {
+      "id": "bn-1-8",
+      "text": "তোর standup update সবসময়: ‘কালকে যা করসি, আজকেও তাই করব’।",
+      "intensity": 2,
+      "length": 58
+    },
+    {
+      "id": "bn-1-9",
+      "text": "তোর কোডের এক লাইনের explanation দিতে তিন পেজ লাগে।",
+      "intensity": 2,
+      "length": 50
+    },
+    {
+      "id": "bn-1-10",
+      "text": "তুই PR ওপেন করেই offline চলে যাস, reviewer-কে একা ছেড়ে।",
+      "intensity": 2,
+      "length": 56
+    },
+    {
+      "id": "bn-1-11",
+      "text": "তোর লগ দেখে বোঝা যায়, তুই panic করে লিখছিস।",
+      "intensity": 2,
+      "length": 44
+    },
+    {
+      "id": "bn-1-12",
+      "text": "তোর dev environment up করতে গিয়ে নতুন dev onboarding শেষ হয়ে যায়।",
+      "intensity": 2,
+      "length": 68
+    },
+    {
+      "id": "bn-1-13",
+      "text": "তুই git pull করার আগে কখনোই read করিস না কী আসতেছে।",
+      "intensity": 2,
+      "length": 51
+    },
+    {
+      "id": "bn-1-14",
+      "text": "তোর script run করলে output-এর চেয়ে warning বেশি আসে।",
+      "intensity": 2,
+      "length": 53
+    },
+    {
+      "id": "bn-1-15",
+      "text": "তুই এক bug fix করতে গিয়ে তিনটা নতুন flag introduce করিস।",
+      "intensity": 2,
+      "length": 57
+    },
+    {
+      "id": "bn-1-16",
+      "text": "তোর API versioning-এর logic: ‘পুরানটা ভাঙলে নতুনটা v2’।",
+      "intensity": 2,
+      "length": 55
+    },
+    {
+      "id": "bn-1-17",
+      "text": "তুই production bug দেখলেই প্রথমে time zone-কে blame করিস।",
+      "intensity": 2,
+      "length": 57
+    },
+    {
+      "id": "bn-1-18",
+      "text": "তোর UI তে hover effect আছে, কিন্তু click করলে কিছুই হয় না।",
+      "intensity": 2,
+      "length": 59
+    },
+    {
+      "id": "bn-1-19",
+      "text": "তোর কোড দেখে junior ভাবে, ‘আমি অন্তত এতটা খারাপ না’।",
+      "intensity": 2,
+      "length": 52
+    },
+    {
+      "id": "bn-1-20",
+      "text": "তুই deadline miss করলে network-কে দোষ দিস, নিজের কাজকে না।",
+      "intensity": 2,
+      "length": 58
+    },
+    {
+      "id": "bn-1-21",
+      "text": "তোর test case নাম: ‘test1’, ‘test2’, ‘newTest’।",
+      "intensity": 2,
+      "length": 47
+    },
+    {
+      "id": "bn-1-22",
+      "text": "তুই সব environment-এ একই API key দিয়ে বাঁচতে চাস।",
+      "intensity": 2,
+      "length": 50
+    },
+    {
+      "id": "bn-1-23",
+      "text": "তোর কোডে এমন nested ternary আছে, পড়তে গিয়ে চোখে পানি আসে।",
+      "intensity": 2,
+      "length": 59
+    },
+    {
+      "id": "bn-1-24",
+      "text": "তুই কোড লিখিস, যেন future তুই কখনোই এটা দেখবি না।",
+      "intensity": 2,
+      "length": 49
+    },
+    {
+      "id": "bn-1-25",
+      "text": "তোর PR দেখতে গিয়ে reviewer dark mode অন করে নেয়, চোখ বাঁচানোর জন্য।",
+      "intensity": 2,
+      "length": 69
+    },
+    {
+      "id": "bn-1-26",
+      "text": "তুই bug reproduce করতে গিয়ে আরেকটা bug create করিস।",
+      "intensity": 2,
+      "length": 52
+    },
+    {
+      "id": "bn-1-27",
+      "text": "তোর deployment checklist শুধু এক লাইন: ‘Inshallah হবে’।",
+      "intensity": 2,
+      "length": 55
+    },
+    {
+      "id": "bn-1-28",
+      "text": "তোর কোডে comment: ‘don’t ask how this works’।",
+      "intensity": 2,
+      "length": 45
+    },
+    {
+      "id": "bn-1-29",
+      "text": "তুই production data দিয়ে লোকাল test করিস, আর ভাবিস খুব smart কিছু করলি।",
+      "intensity": 2,
+      "length": 72
+    },
+    {
+      "id": "bn-1-30",
+      "text": "তোর UI animation এতো অদ্ভুত, user ভাবে site hang করেছে।",
+      "intensity": 2,
+      "length": 55
+    },
+    {
+      "id": "bn-1-31",
+      "text": "তুই ESLint error দেখলেই উপরে `/* eslint-disable */` লিখে দিস।",
+      "intensity": 2,
+      "length": 61
+    },
+    {
+      "id": "bn-1-32",
+      "text": "তোর repo-তে branch-এর চেয়ে confusion বেশি।",
+      "intensity": 2,
+      "length": 43
+    },
+    {
+      "id": "bn-1-33",
+      "text": "তুই backend log-এ emoji use করিস, সিরিয়াস bug report-এও।",
+      "intensity": 2,
+      "length": 57
+    },
+    {
+      "id": "bn-1-34",
+      "text": "তোর কোড দেখে মনে হয়, তুমি আর Stack Overflow secret relationship-এ আছো।",
+      "intensity": 2,
+      "length": 71
+    },
+    {
+      "id": "bn-1-35",
+      "text": "তুই error ধরিস, কিন্তু message print করিস না, যেন crime scene cover up করছিস।",
+      "intensity": 2,
+      "length": 77
+    },
+    {
+      "id": "bn-1-36",
+      "text": "তোর feature flag নাম এমন, on করলে কী হবে, off করলে কী হবে কেউ জানে না।",
+      "intensity": 2,
+      "length": 70
+    },
+    {
+      "id": "bn-1-37",
+      "text": "তুই ‘simple change’ নাম দিয়ে যে PR দিস, সেটা deploy করতে একটা ceremony লাগে।",
+      "intensity": 2,
+      "length": 77
+    },
+    {
+      "id": "bn-1-38",
+      "text": "তোর Jest test run করতে গিয়ে laptop fan jet engine হয়ে যায়।",
+      "intensity": 2,
+      "length": 61
+    },
+    {
+      "id": "bn-1-39",
+      "text": "তুই git fetch না জেনে সবসময় clone করে নতুন folder বানাস।",
+      "intensity": 2,
+      "length": 57
+    },
+    {
+      "id": "bn-1-40",
+      "text": "তোর local branch-এ code আছে, যেগুলার কথা তুই নিজেও ভুলে গেছিস।",
+      "intensity": 2,
+      "length": 62
+    },
+    {
+      "id": "bn-1-41",
+      "text": "তুই design system বানাইছিস, কিন্তু নিজেই অন্য জিনিস use করিস।",
+      "intensity": 2,
+      "length": 61
+    },
+    {
+      "id": "bn-1-42",
+      "text": "তোর API error response এমন cryptic, user ভাবছে তারা hacker attack করসে।",
+      "intensity": 2,
+      "length": 71
+    },
+    {
+      "id": "bn-1-43",
+      "text": "তুই সব জায়গায় copy-paste করিস, তারপর এক জায়গায় change করে বাকি সব কষ্টে বাঁচে।",
+      "intensity": 2,
+      "length": 82
+    },
+    {
+      "id": "bn-1-44",
+      "text": "তুই production-এ log level `debug` রেখে বলিস, ‘server slow কেন জানি না’।",
+      "intensity": 2,
+      "length": 72
+    },
+    {
+      "id": "bn-1-45",
+      "text": "তোর কোড দেখে মনে হয়, কেউ রাতে দুঃস্বপ্ন দেখে লিখছে।",
+      "intensity": 2,
+      "length": 52
+    },
+    {
+      "id": "bn-1-46",
+      "text": "তুই git log খুললেই মনে হয় crime documentary শুরু হয়েছে।",
+      "intensity": 2,
+      "length": 57
+    },
+    {
+      "id": "bn-1-47",
+      "text": "তোর ‘utils’ ফাইল basically garbage dump।",
+      "intensity": 2,
+      "length": 40
+    },
+    {
+      "id": "bn-1-48",
+      "text": "তুই bug কে fix না করে নতুন feature বানিয়ে distract করিস।",
+      "intensity": 2,
+      "length": 57
+    },
+    {
+      "id": "bn-1-49",
+      "text": "তোর API নাম clean, behavior পুরো toxic।",
+      "intensity": 2,
+      "length": 39
+    },
+    {
+      "id": "bn-1-50",
+      "text": "তুই কোড লিখিস, কিন্তু read করার জন্য কেউ নেই—তুই নিজেও না।",
+      "intensity": 2,
+      "length": 58
+    },
+    {
+      "id": "bn-1-51",
+      "text": "তোর design pattern: “copy from previous project and pray।”",
+      "intensity": 2,
+      "length": 58
+    },
+    {
+      "id": "bn-1-52",
+      "text": "তুই error পেলে গুগল করিস, আর যে প্রথম লিংক আসে, সেটাই চালাস।",
+      "intensity": 2,
+      "length": 60
+    },
+    {
+      "id": "bn-1-53",
+      "text": "তোর কোড review করতে গিয়ে reviewer keyboard ছেড়ে Tasbih ধরতে চায়।",
+      "intensity": 2,
+      "length": 67
+    },
+    {
+      "id": "bn-1-54",
+      "text": "তুই সব কিছু asynchronous করিস, শুধু নিজের কাজ না।",
+      "intensity": 2,
+      "length": 49
+    },
+    {
+      "id": "bn-1-55",
+      "text": "তোর লগ message: ‘why’, ‘no’, ‘pls’।",
+      "intensity": 2,
+      "length": 35
+    },
+    {
+      "id": "bn-1-56",
+      "text": "তুই environment change করতে গিয়ে পুরো system down করে ফেলিস।",
+      "intensity": 2,
+      "length": 61
+    },
+    {
+      "id": "bn-1-57",
+      "text": "তোর utils.ts দেখে compiler-ও confused হয়ে যায়।",
+      "intensity": 2,
+      "length": 48
+    },
+    {
+      "id": "bn-1-58",
+      "text": "তুই bug reproduce করতে না পারলেই বলিস, “আল্লাহ বাঁচাইছে।”",
+      "intensity": 2,
+      "length": 57
+    },
+    {
+      "id": "bn-1-59",
+      "text": "তোর CSS file-এ comment বেশি, কাজ কম।",
+      "intensity": 2,
+      "length": 36
+    },
+    {
+      "id": "bn-1-60",
+      "text": "তুই code refactor না করে folder rename করিস, আর তাকে বলিস architecture change",
+      "intensity": 2,
+      "length": 77
+    },
+    {
+      "id": "bn-1-61",
+      "text": "তোর bug list দেখে Jira-ও বলছে, ‘এটা আমার কাজ না’।",
+      "intensity": 2,
+      "length": 49
+    },
+    {
+      "id": "bn-1-62",
+      "text": "তুই code clean না, code crime লিখিস।",
+      "intensity": 2,
+      "length": 36
+    },
+    {
+      "id": "bn-1-63",
+      "text": "তোর কোড দেখে মনে হয়, deadlineই ছিল main architect।",
+      "intensity": 2,
+      "length": 51
+    },
+    {
+      "id": "bn-1-64",
+      "text": "তুই Stack Overflow কপি করতে গিয়ে question-টাই paste করে দিস।",
+      "intensity": 2,
+      "length": 61
+    },
+    {
+      "id": "bn-1-65",
+      "text": "তোর function গুলা এত বড়, ভিতরে ঢুকলে exit door খুঁজে পাওয়া যায় না।",
+      "intensity": 2,
+      "length": 69
+    },
+    {
+      "id": "bn-1-66",
+      "text": "তুই production error দেখে বলিস, ‘interesting’।",
+      "intensity": 2,
+      "length": 46
+    },
+    {
+      "id": "bn-1-67",
+      "text": "তোর log file পড়তে গিয়ে মানুষ বই লেখা শুরু করতে পারে।",
+      "intensity": 2,
+      "length": 54
+    },
+    {
+      "id": "bn-1-68",
+      "text": "তোর CSS এতো ভাঙা, flexbox-ও ভেঙে কাঁদে।",
+      "intensity": 2,
+      "length": 39
+    },
+    {
+      "id": "bn-1-69",
+      "text": "তুই bug reproduce করতে না পারলেই বলিস, ‘user-এর problem’।",
+      "intensity": 2,
+      "length": 57
+    },
+    {
+      "id": "bn-1-70",
+      "text": "তোর local আর production দুইটা আলাদা universe।",
+      "intensity": 2,
+      "length": 45
+    },
+    {
+      "id": "bn-1-71",
+      "text": "তুই docker use করিস শুধু cool লাগার জন্য।",
+      "intensity": 2,
+      "length": 41
+    },
+    {
+      "id": "bn-1-72",
+      "text": "তোর API response এ field-এর নাম আর database column-এর নামের মধ্যে কোনো সম্পর্ক নাই।",
+      "intensity": 2,
+      "length": 83
+    },
+    {
+      "id": "bn-1-73",
+      "text": "তোর commit: ‘fixed stuff’, আর actual change: ৫০টা file edit।",
+      "intensity": 2,
+      "length": 60
+    },
+    {
+      "id": "bn-1-74",
+      "text": "তোর কোড দেখে HR ভাবছে, hiring process আবার redesign করা দরকার।",
+      "intensity": 2,
+      "length": 62
+    },
+    {
+      "id": "bn-1-75",
+      "text": "তুই Figma design দেখে বলিস, ‘আমার browserে ওভাবে হবে না’।",
+      "intensity": 2,
+      "length": 57
+    },
+    {
+      "id": "bn-1-76",
+      "text": "তোর script চালানোর আগে তিনবার cross-check করা লাগে যে সার্ভার বেঁচে থাকবে কিনা।",
+      "intensity": 2,
+      "length": 79
+    },
+    {
+      "id": "bn-1-77",
+      "text": "তুই null check না করে সরাসরি `.toString()` কল করিস।",
+      "intensity": 2,
+      "length": 51
+    },
+    {
+      "id": "bn-1-78",
+      "text": "তোর exception message: ‘something bad happened’।",
+      "intensity": 2,
+      "length": 48
+    },
+    {
+      "id": "bn-1-79",
+      "text": "তুই comment লেখার সময় future ডেভেলপারকে insult করিস, ভুলে গিয়ে যে সেটা তুই নিজেই।",
+      "intensity": 2,
+      "length": 83
+    },
+    {
+      "id": "bn-1-80",
+      "text": "তোর backlog-এ যেসব task আছে, তাদের মধ্যে কিছু dinosaur age থেকে আছে।",
+      "intensity": 2,
+      "length": 68
+    },
+    {
+      "id": "bn-1-81",
+      "text": "তুই production database-এ সরাসরি query চালিয়ে নিজেকে hacker ভাবিস।",
+      "intensity": 2,
+      "length": 67
+    },
+    {
+      "id": "bn-1-82",
+      "text": "তোর react component-এ logic, UI, state, API call—সব এক ফাইলে থাকে।",
+      "intensity": 2,
+      "length": 66
+    },
+    {
+      "id": "bn-1-83",
+      "text": "তুই version bump করিস চোখ বুজে: patch, minor, major—সব এক জিনিস।",
+      "intensity": 2,
+      "length": 64
+    },
+    {
+      "id": "bn-1-84",
+      "text": "তোর test suite run করতে চাইলে আরেকটা server লাগে।",
+      "intensity": 2,
+      "length": 49
+    },
+    {
+      "id": "bn-1-85",
+      "text": "তুই code format করার নাম করে IDE crash করাস।",
+      "intensity": 2,
+      "length": 44
+    },
+    {
+      "id": "bn-1-86",
+      "text": "তোর bug fix-এ টাইপো থাকায় আরেকটা bug জন্মায়।",
+      "intensity": 2,
+      "length": 46
+    },
+    {
+      "id": "bn-1-87",
+      "text": "তোর CLI tool run করলে user ভাবে সে hacking করছে, কারণ outputই বোঝে না।",
+      "intensity": 2,
+      "length": 70
+    },
+    {
+      "id": "bn-1-88",
+      "text": "তুই staging আর production একটার ওপর আরেকটা overwrite করিস।",
+      "intensity": 2,
+      "length": 58
+    },
+    {
+      "id": "bn-1-89",
+      "text": "তুই যে build বানাস, সেটা run করতে devops-ও documentation চায়।",
+      "intensity": 2,
+      "length": 62
+    },
+    {
+      "id": "bn-1-90",
+      "text": "তোর কোডে dependency এত বেশি, uninstall করতে গেলেও permission লাগে।",
+      "intensity": 2,
+      "length": 66
+    },
+    {
+      "id": "bn-1-91",
+      "text": "তুই সব জায়গায় `any` use করে type system-কে personal insult দিছিস।",
+      "intensity": 2,
+      "length": 67
+    },
+    {
+      "id": "bn-1-92",
+      "text": "তোর UI তে একই জিনিস তিন রকম ভাবে behave করে।",
+      "intensity": 2,
+      "length": 44
+    },
+    {
+      "id": "bn-1-93",
+      "text": "তোর লগ message: ‘should not happen’, কিন্তু প্রতিদিনই হয়।",
+      "intensity": 2,
+      "length": 58
+    },
+    {
+      "id": "bn-1-94",
+      "text": "তুই জাভাস্ক্রিপ্টে equality check করিস, আর pray করিস।",
+      "intensity": 2,
+      "length": 53
+    },
+    {
+      "id": "bn-1-95",
+      "text": "তোর function নামের মধ্যে verb নাই, শুধু confusion।",
+      "intensity": 2,
+      "length": 50
+    },
+    {
+      "id": "bn-1-96",
+      "text": "তুই bug fix করার পর বলিস, ‘don’t touch it, it works by accident’।",
+      "intensity": 2,
+      "length": 65
+    },
+    {
+      "id": "bn-1-97",
+      "text": "তোর config ফাইলে এমন মান আছে, তুই নিজেও জানিস না কেন।",
+      "intensity": 2,
+      "length": 53
+    },
+    {
+      "id": "bn-1-98",
+      "text": "তুই PR description-এ লেখা বাদ দিয়ে শুধু meme দিস।",
+      "intensity": 2,
+      "length": 50
+    },
+    {
+      "id": "bn-1-99",
+      "text": "তোর eslint config এত strict, তুই নিজেই disable করে রাখিস।",
+      "intensity": 2,
+      "length": 57
+    },
+    {
+      "id": "bn-1-100",
+      "text": "তোর মাইগ্রেশন স্ক্রিপ্ট চলে, কিন্তু ডেটা কোথায় যায় কেউ জানে না।",
+      "intensity": 2,
+      "length": 65
+    },
+    {
+      "id": "bn-1-101",
+      "text": "তুই dependency update দেখেই বলিস, ‘next sprint এ করব’।",
+      "intensity": 2,
+      "length": 54
+    },
+    {
+      "id": "bn-1-102",
+      "text": "তোর codebase এ dead code এত বেশি, zombie apocalypse বানানো যাবে।",
+      "intensity": 2,
+      "length": 64
+    },
+    {
+      "id": "bn-1-103",
+      "text": "তুই backend-এ `console.log('here')` দিয়ে tracing করিস।",
+      "intensity": 2,
+      "length": 55
+    },
+    {
+      "id": "bn-1-104",
+      "text": "তোর UX এ error state মানে শুধু এক লাইনের alert: ‘error’।",
+      "intensity": 2,
+      "length": 56
+    },
+    {
+      "id": "bn-1-105",
+      "text": "তুই build fail হলে প্রথম কাজ করিস: restart, দ্বিতীয় কাজ: আবার restart।",
+      "intensity": 2,
+      "length": 71
+    },
+    {
+      "id": "bn-1-106",
+      "text": "তোর CSS specificity war Netflix সিরিজ হওয়ার লেভেলের।",
+      "intensity": 2,
+      "length": 53
+    },
+    {
+      "id": "bn-1-107",
+      "text": "তুই code push করার আগে test run করিস না, শুধু hope run করিস।",
+      "intensity": 2,
+      "length": 60
+    },
+    {
+      "id": "bn-1-108",
+      "text": "তোর design system-এর নাম থাকা সত্ত্বেও কেউ use করে না, তুই সহ।",
+      "intensity": 2,
+      "length": 62
+    },
+    {
+      "id": "bn-1-109",
+      "text": "তুই একবার fix করতে গিয়ে চারটা feature ভেঙে ফেলিস।",
+      "intensity": 2,
+      "length": 50
+    },
+    {
+      "id": "bn-1-110",
+      "text": "তোর কোড এত nested, এক screen-এ bracket দেখা শেষ হয় না।",
+      "intensity": 2,
+      "length": 55
+    },
+    {
+      "id": "bn-1-111",
+      "text": "তুই commit-এ বাংলা আর ইংরেজি মিক্স করে রহস্যময় message লিখিস।",
+      "intensity": 2,
+      "length": 62
+    },
+    {
+      "id": "bn-1-112",
+      "text": "তোর project-এ `.env.example` আর real `.env` দুইটাই git-এ আছে।",
+      "intensity": 2,
+      "length": 61
+    },
+    {
+      "id": "bn-1-113",
+      "text": "তুই API তে breaking change করে বলিস, ‘minor update মাত্র’।",
+      "intensity": 2,
+      "length": 58
+    },
+    {
+      "id": "bn-1-114",
+      "text": "তোর ফ্রন্টএন্ড app load হতে হতে user password ভুলে যায়।",
+      "intensity": 2,
+      "length": 56
+    },
+    {
+      "id": "bn-1-115",
+      "text": "তুই dev server আর production server কনফিউজ করে কমান্ড চালাস।",
+      "intensity": 2,
+      "length": 60
+    },
+    {
+      "id": "bn-1-116",
+      "text": "তোর code-এ DRY মানে ‘Don’t Read Yet’।",
+      "intensity": 2,
+      "length": 37
+    },
+    {
+      "id": "bn-1-117",
+      "text": "তুই documentation update করতে গিয়ে documentation delete করে ফেলিস।",
+      "intensity": 2,
+      "length": 67
+    },
+    {
+      "id": "bn-1-118",
+      "text": "তোর task estimate: ‘১ দিন’, আর বাস্তবে: দুইটা sprint।",
+      "intensity": 2,
+      "length": 53
+    },
+    {
+      "id": "bn-1-119",
+      "text": "তুই একটা bug fix করতে গিয়ে তিনটা feature rollback করিস।",
+      "intensity": 2,
+      "length": 56
+    },
+    {
+      "id": "bn-1-120",
+      "text": "তোর git stash-এ আটকে থাকা code-গুলা এখন historical artifact।",
+      "intensity": 2,
+      "length": 60
+    },
+    {
+      "id": "bn-1-121",
+      "text": "তুই null pointer দেখলেই ল্যাপটপ বন্ধ করে বিরতি নাস।",
+      "intensity": 2,
+      "length": 51
+    },
+    {
+      "id": "bn-1-122",
+      "text": "তোর UI error message-এ লেখা থাকে: ‘oops’। আর কিছু না।",
+      "intensity": 2,
+      "length": 53
+    },
+    {
+      "id": "bn-1-123",
+      "text": "তুই Lighthouse score improve করতে image delete করে দিস।",
+      "intensity": 2,
+      "length": 55
+    },
+    {
+      "id": "bn-1-124",
+      "text": "তোর কোড দেখে eslint বলছে: ‘I’m out’।",
+      "intensity": 2,
+      "length": 36
+    },
+    {
+      "id": "bn-1-125",
+      "text": "তুই ‘clean architecture’ শুনছিস, but apply করিস ‘quick architecture’।",
+      "intensity": 2,
+      "length": 69
+    },
+    {
+      "id": "bn-1-126",
+      "text": "তোর service নাম microservice, কাজ করে monolith-এর মতো।",
+      "intensity": 2,
+      "length": 54
+    },
+    {
+      "id": "bn-1-127",
+      "text": "তুই keyboard shortcut জানিস না, কিন্তু সব framework use করিস।",
+      "intensity": 2,
+      "length": 61
+    },
+    {
+      "id": "bn-1-128",
+      "text": "তোর React hook-এর dependency array সবসময় ফাঁকা থাকে।",
+      "intensity": 2,
+      "length": 53
+    },
+    {
+      "id": "bn-1-129",
+      "text": "তুই console warning দেখে ignore করিস, কারণ color সুন্দর লাগে।",
+      "intensity": 2,
+      "length": 61
+    },
+    {
+      "id": "bn-1-130",
+      "text": "তোর database-এ required field-ও কখনো কখনো null থাকে, like your motivation।",
+      "intensity": 2,
+      "length": 74
+    },
+    {
+      "id": "bn-1-131",
+      "text": "তুই git blame দেখে নিজেকেই পাস্তা বানাস।",
+      "intensity": 2,
+      "length": 40
+    },
+    {
+      "id": "bn-1-132",
+      "text": "তোর dev environment recreate করতে full wiki দরকার, যা কেউ পড়ে না।",
+      "intensity": 2,
+      "length": 66
+    },
+    {
+      "id": "bn-1-133",
+      "text": "তুই staging-এ test না করে সরাসরি client কে লিংক পাঠাস।",
+      "intensity": 2,
+      "length": 54
+    },
+    {
+      "id": "bn-1-134",
+      "text": "তোর CSS animation দেখে epileptic warning দেওয়া উচিত।",
+      "intensity": 2,
+      "length": 53
+    },
+    {
+      "id": "bn-1-135",
+      "text": "তুই API contract মানিস না, শুধু pray করিস ‘frontend handle করে নেবে’।",
+      "intensity": 2,
+      "length": 69
+    },
+    {
+      "id": "bn-1-136",
+      "text": "তোর business logic controller-এর ভেতরে, service-এর ভেতরে, helper-এর ভেতরে, সব জায়গায় ছড়ানো।",
+      "intensity": 2,
+      "length": 94
+    },
+    {
+      "id": "bn-1-137",
+      "text": "তুই bug report পড়িস না, শুধু title দেখে reply দিস।",
+      "intensity": 2,
+      "length": 51
+    },
+    {
+      "id": "bn-1-138",
+      "text": "তোর local build pass করলেই তুই ধরে নাস world ready।",
+      "intensity": 2,
+      "length": 51
+    },
+    {
+      "id": "bn-1-139",
+      "text": "তুই devconsole খুলে error দেখে tab বন্ধ করে দিস।",
+      "intensity": 2,
+      "length": 48
+    },
+    {
+      "id": "bn-1-140",
+      "text": "তোর কোডে indentation ঠিক করতে গিয়ে git diff horror movie হয়ে যায়।",
+      "intensity": 2,
+      "length": 68
+    },
+    {
+      "id": "bn-1-141",
+      "text": "তুই Redux use করিস, কিন্তু state flow নিজেও বোঝাস না।",
+      "intensity": 2,
+      "length": 53
+    },
+    {
+      "id": "bn-1-142",
+      "text": "তোর deploy plan: ‘git push’ আর group-এ ‘done’ লিখে দেয়া।",
+      "intensity": 2,
+      "length": 57
+    },
+    {
+      "id": "bn-1-143",
+      "text": "তুই সর্বদা latest beta version use করিস, stability শব্দটাই শোনস না।",
+      "intensity": 2,
+      "length": 67
+    },
+    {
+      "id": "bn-1-144",
+      "text": "তোর code coverage report-এ শুধু warning আর sadness।",
+      "intensity": 2,
+      "length": 51
+    },
+    {
+      "id": "bn-1-145",
+      "text": "তুই production-এ লগ বন্ধ করে রাখিস, কারণ file বড় হয়ে যায়।",
+      "intensity": 2,
+      "length": 60
+    },
+    {
+      "id": "bn-1-146",
+      "text": "তোর script run করতে গেলে README-তে থাকা command কাজই করে না।",
+      "intensity": 2,
+      "length": 60
+    },
+    {
+      "id": "bn-1-147",
+      "text": "তুই এক project-এ ৩টা ভিন্ন UI library মিশিয়ে সালাদ বানাইছিস।",
+      "intensity": 2,
+      "length": 61
+    },
+    {
+      "id": "bn-1-148",
+      "text": "তোর bug reproduction step: ‘somehow happens’।",
+      "intensity": 2,
+      "length": 45
+    },
+    {
+      "id": "bn-1-149",
+      "text": "তুই CSS এ class name রাখিস `box`, `box2`, `box-new`, `box-final`।",
+      "intensity": 2,
+      "length": 65
+    },
+    {
+      "id": "bn-1-150",
+      "text": "তোর কোড এত repetitive, loop লিখতে গিয়েও copy-paste করিস।",
+      "intensity": 2,
+      "length": 57
+    },
+    {
+      "id": "bn-1-151",
+      "text": "তুই dev dependency production-এ ইনস্টল করে ডিপ্লয় করিস আর ভেবেই দেখিস না।",
+      "intensity": 2,
+      "length": 74
+    },
+    {
+      "id": "bn-1-152",
+      "text": "তোর log level সব জায়গায় `debug` সেট করা।",
+      "intensity": 2,
+      "length": 42
+    },
+    {
+      "id": "bn-1-153",
+      "text": "তুই async/await use করিস, কিন্তু error কখনো catch করিস না।",
+      "intensity": 2,
+      "length": 58
+    },
+    {
+      "id": "bn-1-154",
+      "text": "তোর Notion board-এ ‘In Progress’ column-এ জিনিস বেশি, ‘Done’ প্রায় খালি।",
+      "intensity": 2,
+      "length": 73
+    },
+    {
+      "id": "bn-1-155",
+      "text": "তুই environment অনুযায়ী config change না করে everywhere same use করিস।",
+      "intensity": 2,
+      "length": 71
+    },
+    {
+      "id": "bn-1-156",
+      "text": "তোর test data আর real data এক হলে তুই খুশি, user দুঃখী।",
+      "intensity": 2,
+      "length": 55
+    },
+    {
+      "id": "bn-1-157",
+      "text": "তুই Stack Overflow কপি করিস, আর ভাবিস নিজেই আবিষ্কার করলি।",
+      "intensity": 2,
+      "length": 58
+    },
+    {
+      "id": "bn-1-158",
+      "text": "তোর কোড দেখলে linter panic attack খায়।",
+      "intensity": 2,
+      "length": 38
+    },
+    {
+      "id": "bn-1-159",
+      "text": "তোর variable name দেখে বোঝা যায় তুই নিজেও জানিস না ওটা কী করে।",
+      "intensity": 2,
+      "length": 63
+    },
+    {
+      "id": "bn-1-160",
+      "text": "তুই TODO লিখে ভাবিস, future তুই এসে ঠিক করে যাবে।",
+      "intensity": 2,
+      "length": 49
+    },
+    {
+      "id": "bn-1-161",
+      "text": "তোর function গুলা এত লম্বা, scroll করতে করতে wrist pain হয়।",
+      "intensity": 2,
+      "length": 60
+    },
+    {
+      "id": "bn-1-162",
+      "text": "তুই bug fix করতে গিয়ে নতুন framework introduce করে ফেলিস।",
+      "intensity": 2,
+      "length": 58
+    },
+    {
+      "id": "bn-1-163",
+      "text": "তোর ‘quick fix’ এখন production feature হয়ে বসে আছে।",
+      "intensity": 2,
+      "length": 52
+    },
+    {
+      "id": "bn-1-164",
+      "text": "তোর কোডে comment কম, অজুহাত বেশি।",
+      "intensity": 2,
+      "length": 33
+    },
+    {
+      "id": "bn-1-165",
+      "text": "তোর exception handler শুধু একটাই কাজ জানে: silently ignore।",
+      "intensity": 2,
+      "length": 59
+    },
+    {
+      "id": "bn-1-166",
+      "text": "তুই production-এ debug করিস, users-কে QA বানিয়ে।",
+      "intensity": 2,
+      "length": 48
+    },
+    {
+      "id": "bn-1-167",
+      "text": "তোর commit message: ‘update’, ‘fix’, আর ‘final-final’।",
+      "intensity": 2,
+      "length": 54
+    },
+    {
+      "id": "bn-1-168",
+      "text": "তোর pull request open হলেই CI/CD কেঁদে ওঠে।",
+      "intensity": 2,
+      "length": 43
+    },
+    {
+      "id": "bn-1-169",
+      "text": "তুই merge conflict দেখলেই নতুন branch বানাস।",
+      "intensity": 2,
+      "length": 44
+    },
+    {
+      "id": "bn-1-170",
+      "text": "তোর design pattern-এর নাম: ‘যা পারিস লিখে দে’।",
+      "intensity": 2,
+      "length": 46
+    },
+    {
+      "id": "bn-1-171",
+      "text": "তোর CSS এতো !important, specificity লজ্জায় মরে।",
+      "intensity": 2,
+      "length": 48
+    },
+    {
+      "id": "bn-1-172",
+      "text": "তুই dark mode বানাস, কিন্তু login এখনো কাজ করে না।",
+      "intensity": 2,
+      "length": 50
+    },
+    {
+      "id": "bn-1-173",
+      "text": "তোর API response দেখলে frontend dev therapy নিতে যায়।",
+      "intensity": 2,
+      "length": 54
+    },
+    {
+      "id": "bn-1-174",
+      "text": "তুই deadline আর estimate দুইটাই кальকুলেট করিস imagination দিয়ে।",
+      "intensity": 2,
+      "length": 65
+    },
+    {
+      "id": "bn-1-175",
+      "text": "তোর লোকাল setup করতে গিয়ে নতুন dev resign দিতে চায়।",
+      "intensity": 2,
+      "length": 53
+    },
+    {
+      "id": "bn-1-176",
+      "text": "তোর log message: ‘here’, ‘there’, ‘why’।",
+      "intensity": 2,
+      "length": 40
+    },
+    {
+      "id": "bn-1-177",
+      "text": "তুই documentation-কে side project ভাবে নাসই।",
+      "intensity": 2,
+      "length": 44
+    },
+    {
+      "id": "bn-1-178",
+      "text": "তোর backend down থাকলে তুই frontend-কে দোষ দিস।",
+      "intensity": 2,
+      "length": 47
+    },
+    {
+      "id": "bn-1-179",
+      "text": "তোর UI এতটা confusing, user ভাবছে সে admin প্যানেলে ঢুকে গেছে।",
+      "intensity": 2,
+      "length": 62
+    },
+    {
+      "id": "bn-1-180",
+      "text": "তুই copy-paste করে import ঠিক করতেই আধা দিন চলে যায়।",
+      "intensity": 2,
+      "length": 52
+    },
+    {
+      "id": "bn-1-181",
+      "text": "তোর unit test আছে, কিন্তু সবই skip করা।",
+      "intensity": 2,
+      "length": 39
+    },
+    {
+      "id": "bn-1-182",
+      "text": "তুই সব bug-কে feature বলে চালিয়ে দিস।",
+      "intensity": 2,
+      "length": 38
+    },
+    {
+      "id": "bn-1-183",
+      "text": "তোর database query দেখে DBA চাকরি ছাড়তে চায়।",
+      "intensity": 2,
+      "length": 46
+    },
+    {
+      "id": "bn-1-184",
+      "text": "তুই console.log দিয়ে production debug করিস।",
+      "intensity": 2,
+      "length": 44
+    },
+    {
+      "id": "bn-1-185",
+      "text": "তোর codebase-এ enter করলে map লাগবে বের হতে।",
+      "intensity": 2,
+      "length": 44
+    },
+    {
+      "id": "bn-1-186",
+      "text": "তোর repo নাম: ‘new’, ‘new-new’, ‘new-final’।",
+      "intensity": 2,
+      "length": 44
+    },
+    {
+      "id": "bn-1-187",
+      "text": "তুই নিজে যে function লিখছিস, এক সপ্তাহ পরে নিজেই বুঝিস না।",
+      "intensity": 2,
+      "length": 58
+    },
+    {
+      "id": "bn-1-188",
+      "text": "তোর microservice-গুলা একে অপরের উপর co-dependent relationship এ আছে।",
+      "intensity": 2,
+      "length": 68
+    },
+    {
+      "id": "bn-1-189",
+      "text": "তুই null check লিখিস না, destiny-তে বিশ্বাস করিস।",
+      "intensity": 2,
+      "length": 49
+    },
+    {
+      "id": "bn-1-190",
+      "text": "তোর feature flag কখনো off হয় না, শুধু জমে যায়।",
+      "intensity": 2,
+      "length": 48
+    },
+    {
+      "id": "bn-1-191",
+      "text": "তোর কোড দেখে মনে হয় hackathon এখনো শেষ হয়নি।",
+      "intensity": 2,
+      "length": 46
+    },
+    {
+      "id": "bn-1-192",
+      "text": "তোর API versioning হলো random guess।",
+      "intensity": 2,
+      "length": 36
+    },
+    {
+      "id": "bn-1-193",
+      "text": "তুই production secret .env.example-এ রেখে দিস।",
+      "intensity": 2,
+      "length": 46
+    },
+    {
+      "id": "bn-1-194",
+      "text": "তোর UI bug গুলো zoom করলে multiply হয়।",
+      "intensity": 2,
+      "length": 39
+    },
+    {
+      "id": "bn-1-195",
+      "text": "তোর data migration স্ক্রিপ্ট চালাতে রীতিমতো দোয়া দরকার।",
+      "intensity": 2,
+      "length": 56
+    },
+    {
+      "id": "bn-1-196",
+      "text": "তুই জাভাস্ক্রিপ্ট শিখে global variable-কে lifestyle বানাইছিস।",
+      "intensity": 2,
+      "length": 61
+    },
+    {
+      "id": "bn-1-197",
+      "text": "তোর code smell এত বেশি, air freshener দিলেও কাজ হবে না।",
+      "intensity": 2,
+      "length": 55
+    },
+    {
+      "id": "bn-1-198",
+      "text": "তোর project structure: ‘components’, ‘new-components’, ‘old’, ‘temp’।",
+      "intensity": 2,
+      "length": 69
+    },
+    {
+      "id": "bn-1-199",
+      "text": "তুই comment করে কোড ডিলিট করিস, কারণ delete করতে ভয় পাস।",
+      "intensity": 2,
+      "length": 57
+    },
+    {
+      "id": "bn-1-200",
+      "text": "তোর performance fix মানে caching everywhere, বুঝে কোথাও না।",
+      "intensity": 2,
+      "length": 59
+    },
+    {
+      "id": "bn-1-201",
+      "text": "তোর bug report-এর response: ‘can't reproduce, works on my machine’।",
+      "intensity": 2,
+      "length": 67
+    },
+    {
+      "id": "bn-1-202",
+      "text": "তুই responsiveness টেস্ট করিস শুধু নিজের screen এ।",
+      "intensity": 2,
+      "length": 50
+    },
+    {
+      "id": "bn-1-203",
+      "text": "তোর design system Figma-তে থাকে, কোডে থাকে chaos।",
+      "intensity": 2,
+      "length": 49
+    },
+    {
+      "id": "bn-1-204",
+      "text": "তোর git history দেখে archaeologist লাগবে বুঝতে।",
+      "intensity": 2,
+      "length": 47
+    },
+    {
+      "id": "bn-1-205",
+      "text": "তোর dev branch মানে production-এর beta version।",
+      "intensity": 2,
+      "length": 47
+    },
+    {
+      "id": "bn-1-206",
+      "text": "তুই rate limit না বুঝে API public করে রাখিস।",
+      "intensity": 2,
+      "length": 44
+    },
+    {
+      "id": "bn-1-207",
+      "text": "তোর কাজ শেষ করার আগে তুই নতুন side project শুরু করিস।",
+      "intensity": 2,
+      "length": 53
+    },
+    {
+      "id": "bn-1-208",
+      "text": "তোর feature কোনোদিন ‘done’ হয় না, শুধু ‘almost done’।",
+      "intensity": 2,
+      "length": 54
+    },
+    {
+      "id": "bn-1-209",
+      "text": "তোর commit-এ description থেকে emoji বেশি থাকে।",
+      "intensity": 2,
+      "length": 46
+    },
+    {
+      "id": "bn-1-210",
+      "text": "তুই indentation ঠিক করতে গিয়ে পুরো file পরিবর্তন করে ফেলিস।",
+      "intensity": 2,
+      "length": 60
+    },
+    {
+      "id": "bn-1-211",
+      "text": "তোর naming convention: `a`, `aa`, `aaa`, `data`, `data2`।",
+      "intensity": 2,
+      "length": 57
+    },
+    {
+      "id": "bn-1-212",
+      "text": "তুই শুধু Friday-এই deploy করিস, drama পছন্দ বলেই।",
+      "intensity": 2,
+      "length": 49
+    },
+    {
+      "id": "bn-1-213",
+      "text": "তোর কোড দেখে junior ডেভেলপার career change ভাবতে শুরু করে।",
+      "intensity": 2,
+      "length": 58
+    },
+    {
+      "id": "bn-1-214",
+      "text": "তুই exception ধরিস, কিন্তু কিছু করিস না, শুধু ignore।",
+      "intensity": 2,
+      "length": 53
+    },
+    {
+      "id": "bn-1-215",
+      "text": "তোর backend log ফাইলের size, codebase-এর চেয়ে বড়।",
+      "intensity": 2,
+      "length": 51
+    },
+    {
+      "id": "bn-1-216",
+      "text": "তোর UI তে loading spinner বেশি, content কম।",
+      "intensity": 2,
+      "length": 43
+    },
+    {
+      "id": "bn-1-217",
+      "text": "তুই bug fix করে আরেকটা bug introduce না করলে ঘুম আসে না।",
+      "intensity": 2,
+      "length": 56
+    },
+    {
+      "id": "bn-1-218",
+      "text": "তোর CSS file খুললে মনে হয় ancient scroll খুলছি।",
+      "intensity": 2,
+      "length": 48
+    },
+    {
+      "id": "bn-1-219",
+      "text": "তুই eslint off করে peace of mind অন করিস।",
+      "intensity": 2,
+      "length": 41
+    },
+    {
+      "id": "bn-1-220",
+      "text": "তোর API documentation শুধু Postman collection এ আটকে আছে।",
+      "intensity": 2,
+      "length": 57
+    },
+    {
+      "id": "bn-1-221",
+      "text": "তুই তিন লাইন code লিখতে দুইটা library install করিস।",
+      "intensity": 2,
+      "length": 51
+    },
+    {
+      "id": "bn-1-222",
+      "text": "তোর production server-এ SSH ঢুকে `npm install` চালাইছিস, স্বীকার কর।",
+      "intensity": 2,
+      "length": 68
+    },
+    {
+      "id": "bn-1-223",
+      "text": "তোর কোড এমন, stack trace-ও হাল ছেড়ে দেয় মাঝপথে।",
+      "intensity": 2,
+      "length": 49
+    },
+    {
+      "id": "bn-1-224",
+      "text": "তুই task estimate করতে Fibonacci সিরিজও মানিস না।",
+      "intensity": 2,
+      "length": 49
+    },
+    {
+      "id": "bn-1-225",
+      "text": "তোর QA team বোলে, ‘এটা bug না, এটা signature style’।",
+      "intensity": 2,
+      "length": 52
+    },
+    {
+      "id": "bn-1-226",
+      "text": "তোর PR title: ‘small changes’, কিন্তু file changed 99+।",
+      "intensity": 2,
+      "length": 55
+    },
+    {
+      "id": "bn-1-227",
+      "text": "তোর bug fix commit message: ‘hope this works’।",
+      "intensity": 2,
+      "length": 46
+    },
+    {
+      "id": "bn-1-228",
+      "text": "তুই জিনিস বুঝিস না, কিন্তু strongly opinionated থাকিস।",
+      "intensity": 2,
+      "length": 54
+    },
+    {
+      "id": "bn-1-229",
+      "text": "তোর localStorage-এ যা আছে, ডাটাবেসেও নেই।",
+      "intensity": 2,
+      "length": 41
+    },
+    {
+      "id": "bn-1-230",
+      "text": "তুই every request এ full table scan চালাস confidence সহকারে।",
+      "intensity": 2,
+      "length": 60
+    },
+    {
+      "id": "bn-1-231",
+      "text": "তোর dark mode-এ text আর background একই রঙের।",
+      "intensity": 2,
+      "length": 44
+    },
+    {
+      "id": "bn-1-232",
+      "text": "তুই breakpoint না দিয়ে alert দিয়ে debug করিস।",
+      "intensity": 2,
+      "length": 47
+    },
+    {
+      "id": "bn-1-233",
+      "text": "তোর UX এমন, user form fill করতে করতে সব ভুলে যায়।",
+      "intensity": 2,
+      "length": 50
+    },
+    {
+      "id": "bn-1-234",
+      "text": "তোর feature rollout plan: ‘just push it and see’।",
+      "intensity": 2,
+      "length": 49
+    },
+    {
+      "id": "bn-1-235",
+      "text": "তুই staging, QA, UAT সব skip করে direct প্রোডাকশন ভালোবাসিস।",
+      "intensity": 2,
+      "length": 60
+    },
+    {
+      "id": "bn-1-236",
+      "text": "তোর monorepo মানে সব গোলমাল এক জায়গায়।",
+      "intensity": 2,
+      "length": 40
+    },
+    {
+      "id": "bn-1-237",
+      "text": "তোর কোড এত nested, এক্সিট করার জন্য `break` না, GPS লাগে।",
+      "intensity": 2,
+      "length": 57
+    },
+    {
+      "id": "bn-1-238",
+      "text": "তুই null check করার চেয়ে try/catch পছন্দ করিস।",
+      "intensity": 2,
+      "length": 47
+    },
+    {
+      "id": "bn-1-239",
+      "text": "তোর কোড রিভিউ দেখে reviewer আরেকটা coffee বানায়।",
+      "intensity": 2,
+      "length": 49
+    },
+    {
+      "id": "bn-1-240",
+      "text": "তুই মিটিং-এ ‘we’ll refactor later’ বলিস, আর later আর আসে না।",
+      "intensity": 2,
+      "length": 60
+    },
+    {
+      "id": "bn-1-241",
+      "text": "তোর console error দেখে Chrome-ও লজ্জা পায়।",
+      "intensity": 2,
+      "length": 43
+    },
+    {
+      "id": "bn-1-242",
+      "text": "তুই live server-এ code edit করিস, আর তাকে বলিস ‘hotfix’।",
+      "intensity": 2,
+      "length": 56
+    },
+    {
+      "id": "bn-1-243",
+      "text": "তোর project README-তে setup step থেকে meme বেশি।",
+      "intensity": 2,
+      "length": 48
+    },
+    {
+      "id": "bn-1-244",
+      "text": "তোর test-এ assertion কম, mock বেশি।",
+      "intensity": 2,
+      "length": 35
+    },
+    {
+      "id": "bn-1-245",
+      "text": "তুই dependency update দেখতে গিয়ে accidental breaking change ইনভাইট করিস।",
+      "intensity": 2,
+      "length": 73
+    },
+    {
+      "id": "bn-1-246",
+      "text": "তোর documentation-এ last updated তারিখ prehistoric।",
+      "intensity": 2,
+      "length": 51
+    },
+    {
+      "id": "bn-1-247",
+      "text": "তুই CSS bug fix করতে margin-left: -9999px ব্যবহার করিস।",
+      "intensity": 2,
+      "length": 55
+    },
+    {
+      "id": "bn-1-248",
+      "text": "তোর কোড দেখে বোঝা যায়, তুই error message কখনো full পড়িস না।",
+      "intensity": 2,
+      "length": 61
+    }
+  ]
+}

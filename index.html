@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Roast as a Service · RaaS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Meta -->
+  <meta name="description" content="Roast as a Service (RaaS) – a CDN-backed static JSON API that serves blazing-fast developer roasts in English and Bangla. Plug it into your apps, bots, and CI.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Roast as a Service · RaaS" />
+  <meta property="og:description" content="Blazing-fast static JSON API for developer roasts. EN + BN, CDN cached, no backend." />
+  <meta property="og:url" content="https://maijied.github.io/roast-as-a-service/" />
+  <meta property="og:type" content="website" />
+  <!-- Optional preview image -->
+  <!-- <meta property="og:image" content="https://maijied.github.io/roast-as-a-service/assets/preview.png" /> -->
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Roast as a Service · RaaS" />
+  <meta name="twitter:description" content="Random dev roasts over a static JSON API.">
+
+  <link rel="stylesheet" href="./assets/style.css" />
+</head>
+<body>
+  <div class="shell">
+    <header class="hero">
+      <div class="hero-text">
+        <h1>Roast as a Service <span class="badge">RaaS</span></h1>
+        <p class="subtitle">
+          CDN‑served static JSON API for developer roasts. Zero backend, ultra‑low latency, English &amp; Bangla support.
+        </p>
+        <div class="hero-actions">
+          <button id="btn-en" class="btn primary">🔥 Roast me (EN)</button>
+          <button id="btn-bn" class="btn ghost">🔥 Roast me (BN)</button>
+        </div>
+        <p class="meta">
+          Served from GitHub Pages edge cache. Designed for bots, CLIs, dashboards, and CI pipelines.
+        </p>
+      </div>
+
+      <div class="hero-card">
+        <div class="card-header">
+          <span class="dot red"></span>
+          <span class="dot amber"></span>
+          <span class="dot green"></span>
+          <span class="card-title">RaaS Console</span>
+        </div>
+        <pre id="roast-box" class="terminal">
+$ raas get --lang=en
+# Press "Roast me" to receive fire...
+        </pre>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <h2>How it works</h2>
+        <p>
+          RaaS exposes sharded JSON datasets over GitHub Pages, then a tiny client SDK picks, filters, and caches roasts in the browser, giving you an API‑like experience with pure static hosting.[web:11][web:30][web:36]
+        </p>
+        <div class="grid">
+          <div class="card">
+            <h3>Static API</h3>
+            <p>
+              Roasts are stored in language‑specific shards (<code>en</code>, <code>bn</code>) and served as JSON over GitHub Pages’ global CDN for low TTFB.[web:11][web:30]
+            </p>
+          </div>
+          <div class="card">
+            <h3>Smart client</h3>
+            <p>
+              The bundled client fetches a small shard, caches it, and returns random roasts with optional intensity and length filters.[web:11][web:33][web:36]
+            </p>
+          </div>
+          <div class="card">
+            <h3>Zero ops</h3>
+            <p>
+              No servers, no cold starts, no scaling issues. Push to main, let Pages deploy and cache everything at the edge.[web:11][web:30]
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-accent">
+        <h2>Why this architecture feels overkill (in a good way)</h2>
+        <p>
+          RaaS is not a toy endpoint glued to a random server. It is a static API designed to exploit CDN edge caching, sharded JSON, and a smart client so you get API-level UX without any backend attached.[web:11][web:47][web:50][web:52]
+        </p>
+
+        <div class="grid arch-grid">
+          <div class="card arch-card">
+            <h3>Edge-first delivery</h3>
+            <p>
+              All JSON and JS is served from GitHub Pages’ global PoPs, so most requests are satisfied from edge cache with minimal latency and no application server in the path.[web:47][web:50][web:52]
+            </p>
+          </div>
+          <div class="card arch-card">
+            <h3>Static API, dynamic feel</h3>
+            <p>
+              The API surface is just files, but the client SDK handles randomness, filtering, and caching to make it behave like a dynamic service while staying 100% static.[web:11][web:47]
+            </p>
+          </div>
+          <div class="card arch-card">
+            <h3>Shard &amp; scale</h3>
+            <p>
+              Roasts are split into language shards, which keeps payloads small, cache hit rates high, and lets you grow the dataset without slowing down clients.[web:11][web:50]
+            </p>
+          </div>
+          <div class="card arch-card">
+            <h3>Operationally boring</h3>
+            <p>
+              No servers, no containers, no warmup, no autoscaling rules. Git pushes become deployments, and the CDN takes care of distribution, caching, and reliability.[web:11][web:49][web:52]
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Quick start</h2>
+        <div class="code-grid">
+          <div class="code-card">
+            <h3>Script include</h3>
+            <pre><code>&lt;script src="https://maijied.github.io/roast-as-a-service/api/client.js"&gt;&lt;/script&gt;
+
+&lt;script&gt;
+  RaaS.getRandomRoast({ lang: 'bn', intensity: 2 })
+    .then(r =&gt; console.log(r.text));
+&lt;/script&gt;</code></pre>
+          </div>
+          <div class="code-card">
+            <h3>Fetch JSON directly</h3>
+            <pre><code>fetch('https://maijied.github.io/roast-as-a-service/api/en/roasts-en-1.json')
+  .then(res =&gt; res.json())
+  .then(data =&gt; {
+    const list = data.roasts;
+    const pick = list[Math.floor(Math.random() * list.length)];
+    console.log(pick.text);
+  });</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>API usage</h2>
+        <p>
+          RaaS is a read‑only static API, so you interact with it using simple GET requests or the client SDK.[web:11][web:58][web:61]
+        </p>
+        <div class="code-grid">
+          <div class="code-card">
+            <h3>cURL</h3>
+            <pre><code># Get English shard 1
+curl https://maijied.github.io/roast-as-a-service/api/en/roasts-en-1.json
+
+# Pretty-print first roast (requires jq)
+curl -s https://maijied.github.io/roast-as-a-service/api/en/roasts-en-1.json \
+  | jq '.roasts[0].text'</code></pre>
+          </div>
+          <div class="code-card">
+            <h3>Node.js</h3>
+            <pre><code>import fetch from 'node-fetch';
+
+async function getRandomRoast(lang = 'en') {
+  const url = `https://maijied.github.io/roast-as-a-service/api/${lang}/roasts-${lang}-1.json`;
+  const res = await fetch(url);
+  const data = await res.json();
+  const list = data.roasts;
+  const pick = list[Math.floor(Math.random() * list.length)];
+  return pick.text;
+}</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Postman collection</h2>
+        <p>
+          Prefer GUI testing? Import the Postman collection and hit the static endpoints directly.[web:11][web:61]
+        </p>
+        <div class="code-card">
+          <h3>Download</h3>
+          <p>
+            Collection file: <code>postman/roast-as-a-service.postman_collection.json</code>
+          </p>
+          <p>In Postman: Import → choose the JSON file → run the requests.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Share RaaS</h2>
+        <p>Like what you see? Share the service with your friends, team, or followers.</p>
+        <div class="share-buttons">
+          <a id="share-twitter" class="share-btn">X / Twitter</a>
+          <a id="share-facebook" class="share-btn">Facebook</a>
+          <a id="share-whatsapp" class="share-btn">WhatsApp</a>
+          <a id="share-linkedin" class="share-btn">LinkedIn</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Roast as a Service · Static JSON over CDN · Built on GitHub Pages.</p>
+      <p><a href="https://github.com/maijied/roast-as-a-service">View source on GitHub</a></p>
+    </footer>
+  </div>
+
+  <script src="./api/client.js"></script>
+  <script>
+    const roastBox = document.getElementById('roast-box');
+    const btnEn = document.getElementById('btn-en');
+    const btnBn = document.getElementById('btn-bn');
+
+    async function showRoast(lang) {
+      roastBox.textContent = 'Loading...';
+      try {
+        const data = await RaaS.getRandomRoast({ lang });
+        roastBox.textContent = data.text;
+      } catch (err) {
+        roastBox.textContent = 'Error: ' + err.message;
+      }
+    }
+
+    btnEn.addEventListener('click', () => showRoast('en'));
+    btnBn.addEventListener('click', () => showRoast('bn'));
+
+    const pageUrl = encodeURIComponent('https://maijied.github.io/roast-as-a-service/');
+    const text = encodeURIComponent('Roast as a Service (RaaS): CDN-backed static JSON API for developer roasts.');
+
+    document.getElementById('share-twitter').href =
+      `https://twitter.com/intent/tweet?url=${pageUrl}&text=${text}`;
+    document.getElementById('share-facebook').href =
+      `https://www.facebook.com/sharer/sharer.php?u=${pageUrl}`;
+    document.getElementById('share-whatsapp').href =
+      `https://api.whatsapp.com/send?text=${text}%20${pageUrl}`;
+    document.getElementById('share-linkedin').href =
+      `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`;
+  </script>
+</body>
+</html>
