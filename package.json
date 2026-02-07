@@ -1,0 +1,25 @@
+{
+    "name": "roast-as-a-service",
+    "version": "1.0.0",
+    "description": "A static JSON API for delivering developer roasts.",
+    "main": "api/client.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Maijied/roast-as-a-service.git"
+    },
+    "keywords": [
+        "roast",
+        "api",
+        "developer",
+        "fun"
+    ],
+    "author": "Maijied",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Maijied/roast-as-a-service/issues"
+    },
+    "homepage": "https://github.com/Maijied/roast-as-a-service#readme"
+}
