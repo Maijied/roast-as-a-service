@@ -36,7 +36,19 @@ Use it when you want your:
 
 ## ⚡ Quick Start
 
-### 1. Script Include
+### 1. Install via npm
+```bash
+npm install roast-api
+```
+
+```javascript
+const RaaS = require('roast-api');
+
+RaaS.getRandomRoast({ lang: 'en' })
+  .then(r => console.log(r.text));
+```
+
+### 2. Script Include (Browser)
 Load the client SDK directly in your browser:
 
 ```html
@@ -49,7 +61,7 @@ Load the client SDK directly in your browser:
 </script>
 ```
 
-### 2. Direct Fetch
+### 3. Direct Fetch
 Or just fetch the JSON files directly:
 
 ```javascript

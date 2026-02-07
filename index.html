@@ -136,6 +136,15 @@ $ raas get --lang=en
                 <h2>Quick start</h2>
                 <div class="code-grid">
                     <div class="code-card">
+                        <h3>npm install</h3>
+                        <pre><code>npm install roast-api
+
+// Usage
+const RaaS = require('roast-api');
+RaaS.getRandomRoast({ lang: 'en' })
+  .then(r =&gt; console.log(r.text));</code></pre>
+                    </div>
+                    <div class="code-card">
                         <h3>Script include</h3>
                         <pre><code>&lt;script src="https://maijied.github.io/roast-as-a-service/api/client.js"&gt;&lt;/script&gt;
 
@@ -143,16 +152,6 @@ $ raas get --lang=en
   RaaS.getRandomRoast({ lang: 'bn', intensity: 2 })
     .then(r =&gt; console.log(r.text));
 &lt;/script&gt;</code></pre>
-                    </div>
-                    <div class="code-card">
-                        <h3>Fetch JSON directly</h3>
-                        <pre><code>fetch('https://maijied.github.io/roast-as-a-service/api/en/roasts-en-1.json')
-  .then(res =&gt; res.json())
-  .then(data =&gt; {
-    const list = data.roasts;
-    const pick = list[Math.floor(Math.random() * list.length)];
-    console.log(pick.text);
-  });</code></pre>
                     </div>
                 </div>
             </section>
