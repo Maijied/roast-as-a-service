@@ -25,6 +25,46 @@ Use it when you want your:
 
 ---
 
+## ⚡ Quick Start
+
+### 1. Script Include
+Load the client SDK directly in your browser:
+
+```html
+<script src="https://maijied.github.io/roast-as-a-service/api/client.js"></script>
+
+<script>
+  // Fetch a random Bangla roast with intensity 2
+  RaaS.getRandomRoast({ lang: 'bn', intensity: 2 })
+    .then(r => console.log(r.text));
+</script>
+```
+
+### 2. Direct Fetch
+Or just fetch the JSON files directly:
+
+```javascript
+fetch('https://maijied.github.io/roast-as-a-service/api/en/roasts-en-1.json')
+  .then(res => res.json())
+  .then(data => {
+    const list = data.roasts;
+    const pick = list[Math.floor(Math.random() * list.length)];
+    console.log(pick.text);
+  });
+```
+
+---
+
+## 🛠 How it works
+
+RaaS exposes sharded JSON datasets over GitHub Pages, then a tiny client SDK picks, filters, and caches roasts in the browser, giving you an API‑like experience with pure static hosting.
+
+- **Static API**: Roasts are stored in language‑specific shards (`en`, `bn`) and served as JSON over GitHub Pages’ global CDN for low TTFB.
+- **Smart client**: The bundled client fetches a small shard, caches it, and returns random roasts with optional intensity and length filters.
+- **Zero ops**: No servers, no cold starts, no scaling issues. Push to main, let Pages deploy and cache everything at the edge.
+
+---
+
 ## 📦 API Overview
 
 This is a **static** API: data comes from versioned JSON files served over CDN, and a lightweight JS client handles randomness, filtering and caching in the browser.
