@@ -1,6 +1,6 @@
 {
     "name": "@maijied/roast-as-a-service",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "A static JSON API for delivering developer roasts.",
     "main": "api/client.js",
     "scripts": {
@@ -11,7 +11,7 @@
         "url": "git+https://github.com/Maijied/roast-as-a-service.git"
     },
     "publishConfig": {
-        "registry": "https://npm.pkg.github.com/"
+        "access": "public"
     },
     "keywords": [
         "roast",
