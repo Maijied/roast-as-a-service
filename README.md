@@ -3,6 +3,9 @@
 <p align="center">
   <img src="https://maijied.github.io/roast-as-a-service/assets/logo.png" width="128" alt="RaaS Logo" />
 </p>
+<p align="center">
+  <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fmaijied.github.io%2Froast-as-a-service&count_bg=%23EC4899&title_bg=%23020617&icon=github.svg&icon_color=%23E7E7E7&title=visitors&edge_flat=false" alt="Visitor Count" />
+</p>
 
 Random developer roasts, delivered via a blazing‑fast static API on GitHub Pages. Plug it into your apps, bots, terminals, or CI logs when “nice error messages” just aren’t enough.
 
