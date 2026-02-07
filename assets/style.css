@@ -358,3 +358,64 @@ code {
     font-family: "SF Mono", ui-monospace, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
     font-size: 0.85em;
 }
+
+@media (max-width: 600px) {
+    .shell {
+        padding: 16px 12px 32px;
+    }
+
+    .hero {
+        margin-top: 4px;
+        gap: 20px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        flex-wrap: wrap;
+        /* Allow logo to wrap if needed, though unlikely */
+    }
+
+    .logo-md {
+        width: 36px;
+        height: 36px;
+    }
+
+    .subtitle {
+        font-size: 0.95rem;
+    }
+
+    .hero-actions {
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+        /* Full width buttons on mobile */
+        text-align: center;
+        padding: 0.8rem 1rem;
+    }
+
+    .hero-actions .btn {
+        flex: 1 1 100%;
+    }
+
+    .terminal {
+        font-size: 0.8rem;
+        /* Slightly smaller code font */
+        min-height: 120px;
+    }
+
+    .section h2 {
+        font-size: 1.15rem;
+    }
+
+    .share-buttons {
+        justify-content: stretch;
+    }
+
+    .share-btn {
+        flex: 1 1 40%;
+        /* 2 per row roughly */
+        text-align: center;
+    }
+}
