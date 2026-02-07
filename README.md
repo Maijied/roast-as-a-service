@@ -40,6 +40,8 @@ Use it when you want your:
 ### 1. Install via npm
 ```bash
 npm install roast-api
+# or
+npm install @maizied/roast-as-a-service
 ```
 
 ```javascript
