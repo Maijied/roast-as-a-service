@@ -292,6 +292,12 @@ main {
     }
 }
 
+@media (min-width: 1100px) {
+    .code-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
+
 .code-card {
     background: rgba(15, 23, 42, 0.9);
     border-radius: 14px;

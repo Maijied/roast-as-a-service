@@ -1,0 +1,25 @@
+# Exclude development and meta files from npm package
+.github/
+brain/
+assets/
+postman/
+index.html
+load_test.js
+add_roasts.js
+add_roasts_failed.js
+add_roasts_debug.js
+add_roasts_v2.js
+.git/
+.gitignore
+.npmignore
+composer.json
+pyproject.toml
+roast_api/
+src/
+api/index.html
+package-lock.json
+README.md
+# Keep api/ folder for actual JSON data and client.js
+# But maybe we should only include api/ and package.json?
+# Actually npm includes everything by default. 
+# We only want api/ and package.json and README.md.

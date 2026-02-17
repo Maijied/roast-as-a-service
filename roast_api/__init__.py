@@ -19,7 +19,7 @@ from roast_api.client import (
     clear_cache,
 )
 
-__version__ = "1.4.0"
+__version__ = "1.5.0"
 __all__ = [
     "get_random_roast",
     "get_all_roasts",

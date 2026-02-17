@@ -6,6 +6,10 @@
     <title>Roast as a Service · RaaS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./assets/logo.png" />
+    <link rel="apple-touch-icon" href="./assets/logo.png" />
+
     <!-- Meta -->
     <meta name="description"
         content="Roast as a Service (RaaS) – a CDN-backed static JSON API that serves blazing-fast developer roasts in English and Bangla. Plug it into your apps, bots, and CI.">
@@ -16,13 +20,16 @@
         content="Blazing-fast static JSON API for developer roasts. EN + BN, CDN cached, no backend." />
     <meta property="og:url" content="https://maijied.github.io/roast-as-a-service/" />
     <meta property="og:type" content="website" />
-    <!-- Optional preview image -->
-    <!-- <meta property="og:image" content="https://maijied.github.io/roast-as-a-service/assets/preview.png" /> -->
+    <meta property="og:image" content="https://maijied.github.io/roast-as-a-service/assets/logo.png" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Roast as a Service · RaaS" />
     <meta name="twitter:description" content="Random dev roasts over a static JSON API.">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./assets/logo.png" />
+    <link rel="apple-touch-icon" href="./assets/logo.png" />
 
     <link rel="stylesheet" href="./assets/style.css" />
 </head>
@@ -169,28 +176,30 @@ RaaS.getRandomRoast({ lang: 'en' })
   RaaS.getRandomRoast({ lang: 'bn', intensity: 2 })
     .then(r =&gt; console.log(r.text));
 &lt;/script&gt;</code></pre>
-                        <div class="code-card">
-                            <h3>Composer (PHP)</h3>
-                            <pre><code>composer require maizied/roast-api
+                    </div>
+                    <div class="code-card">
+                        <h3>Composer (PHP)</h3>
+                        <pre><code>composer require maizied/roast-api
 
 // Usage
 use Maizied\RoastApi\RaaS;
 
 $roast = RaaS::getRandomRoast(['lang' =&gt; 'en']);
 echo $roast['text'];</code></pre>
-                        </div>
-                        <div class="code-card">
-                            <h3>pip (Python)</h3>
-                            <pre><code>pip install roast-api
+                    </div>
+                    <div class="code-card">
+                        <h3>pip (Python)</h3>
+                        <pre><code>pip install roast-api
 
 # Usage
 from roast_api import get_random_roast
 
 roast = get_random_roast(lang='en')
 print(roast['text'])</code></pre>
-                        </div>
                     </div>
+                </div>
             </section>
+
 
             <section class="section">
                 <h2>API usage</h2>
@@ -291,7 +300,11 @@ async function getRandomRoast(lang = 'en') {
         </main>
 
         <footer class="footer">
-            <p>Roast as a Service · Static JSON over CDN · Built on GitHub Pages.</p>
+            <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 12px;">
+                <img src="./assets/logo.png" alt="RaaS Logo" style="width: 32px; height: 32px;" />
+                <span style="font-weight: 700; color: var(--text-main);">Roast as a Service</span>
+            </div>
+            <p>Static JSON over CDN · Built on GitHub Pages.</p>
             <p>A <a href="https://github.com/Maijied/lorapok">Lorapok</a> Project · <a
                     href="https://github.com/maijied/roast-as-a-service">View source</a> · Made by <a
                     href="mailto:mdshuvo40@gmail.com">Maizied</a></p>
