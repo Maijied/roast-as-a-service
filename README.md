@@ -6,6 +6,8 @@
 <p align="center">
   <img src="https://hits.sh/maijied.github.io/roast-as-a-service.svg?view=today-total&style=flat-square&label=visitors&color=ec4899&labelColor=020617" alt="Visitor Count" />
   <a href="https://www.npmjs.com/package/roast-api"><img src="https://img.shields.io/npm/v/roast-api?style=flat-square&color=f97316&labelColor=020617" alt="npm version" /></a>
+  <a href="https://www.npmjs.com/package/roast-api"><img src="https://img.shields.io/npm/dm/roast-api?style=flat-square&color=ec4899&labelColor=020617" alt="npm downloads" /></a>
+  <a href="https://github.com/Maijied/roast-as-a-service/actions/workflows/deploy.yml"><img src="https://github.com/Maijied/roast-as-a-service/actions/workflows/deploy.yml/badge.svg" alt="Deploy to GitHub Pages" /></a>
 </p>
 
 Random developer roasts, delivered via a blazing‑fast static API on GitHub Pages. Plug it into your apps, bots, terminals, or CI logs when “nice error messages” just aren’t enough.
