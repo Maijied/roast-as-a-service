@@ -9,7 +9,7 @@
   <a href="https://www.npmjs.com/package/roast-api"><img src="https://img.shields.io/npm/dm/roast-api?style=flat-square&color=ec4899&labelColor=020617" alt="npm downloads" /></a>
   <a href="https://pypi.org/project/roast-api/"><img src="https://img.shields.io/pypi/v/roast-api?style=flat-square&color=3b82f6&labelColor=020617" alt="PyPI version" /></a>
   <a href="https://packagist.org/packages/maizied/roast-api"><img src="https://img.shields.io/packagist/v/maizied/roast-api?style=flat-square&color=10b981&labelColor=020617" alt="Packagist version" /></a>
-  <a href="https://github.com/Maijied/roast-as-a-service/actions/workflows/deploy.yml"><img src="https://github.com/Maijied/roast-as-a-service/actions/workflows/deploy.yml/badge.svg" alt="Deploy to GitHub Pages" /></a>
+  <a href="https://github.com/Maijied/roast-as-a-service/actions/workflows/ci.yml"><img src="https://github.com/Maijied/roast-as-a-service/actions/workflows/ci.yml/badge.svg" alt="RaaS CI/CD Pipeline" /></a>
 </p>
 
 Random developer roasts, delivered via a blazing‑fast static API on GitHub Pages. Plug it into your apps, bots, terminals, or CI logs when “nice error messages” just aren’t enough.
