@@ -7,6 +7,8 @@
   <img src="https://hits.sh/maijied.github.io/roast-as-a-service.svg?view=today-total&style=flat-square&label=visitors&color=ec4899&labelColor=020617" alt="Visitor Count" />
   <a href="https://www.npmjs.com/package/roast-api"><img src="https://img.shields.io/npm/v/roast-api?style=flat-square&color=f97316&labelColor=020617" alt="npm version" /></a>
   <a href="https://www.npmjs.com/package/roast-api"><img src="https://img.shields.io/npm/dm/roast-api?style=flat-square&color=ec4899&labelColor=020617" alt="npm downloads" /></a>
+  <a href="https://pypi.org/project/roast-api/"><img src="https://img.shields.io/pypi/v/roast-api?style=flat-square&color=3b82f6&labelColor=020617" alt="PyPI version" /></a>
+  <a href="https://packagist.org/packages/maizied/roast-api"><img src="https://img.shields.io/packagist/v/maizied/roast-api?style=flat-square&color=10b981&labelColor=020617" alt="Packagist version" /></a>
   <a href="https://github.com/Maijied/roast-as-a-service/actions/workflows/deploy.yml"><img src="https://github.com/Maijied/roast-as-a-service/actions/workflows/deploy.yml/badge.svg" alt="Deploy to GitHub Pages" /></a>
 </p>
 
@@ -66,7 +68,31 @@ Load the client SDK directly in your browser:
 </script>
 ```
 
-### 3. Direct Fetch
+### 3. Install via Composer (PHP)
+```bash
+composer require maizied/roast-api
+```
+
+```php
+use Maizied\RoastApi\RaaS;
+
+$roast = RaaS::getRandomRoast(['lang' => 'en']);
+echo $roast['text'];
+```
+
+### 4. Install via pip (Python)
+```bash
+pip install roast-api
+```
+
+```python
+from roast_api import get_random_roast
+
+roast = get_random_roast(lang='en')
+print(roast['text'])
+```
+
+### 5. Direct Fetch
 Or just fetch the JSON files directly:
 
 ```javascript

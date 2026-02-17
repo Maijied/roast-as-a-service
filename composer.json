@@ -1,0 +1,30 @@
+{
+    "name": "maizied/roast-api",
+    "description": "A PHP client for RaaS — Roast as a Service. CDN-served static JSON API for developer roasts.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maizied",
+            "email": "mdshuvo40@gmail.com"
+        }
+    ],
+    "homepage": "https://maijied.github.io/roast-as-a-service/",
+    "keywords": [
+        "roast",
+        "api",
+        "developer",
+        "humor",
+        "fun",
+        "cdn"
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Maizied\\RoastApi\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

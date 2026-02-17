@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "roast-api"
+version = "1.4.0"
+description = "A Python client for RaaS — Roast as a Service. CDN-served static JSON API for developer roasts."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.7"
+authors = [
+    {name = "Maizied", email = "mdshuvo40@gmail.com"}
+]
+keywords = ["roast", "api", "developer", "humor", "fun", "cdn"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "requests>=2.20.0",
+]
+
+[project.urls]
+Homepage = "https://maijied.github.io/roast-as-a-service/"
+Repository = "https://github.com/Maijied/roast-as-a-service"
+
+[tool.setuptools.packages.find]
+include = ["roast_api*"]
