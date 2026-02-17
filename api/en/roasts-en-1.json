@@ -2,7 +2,7 @@
   "language": "en",
   "shard": 1,
   "total_shards": 1,
-  "count": 299,
+  "count": 399,
   "tags": [
     "dev",
     "general"
@@ -1801,6 +1801,606 @@
       "text": "Your mocks have more logic than your production code.",
       "intensity": 2,
       "length": 53
+    },
+    {
+      "id": "en-1-300",
+      "text": "Your code review takes longer than the code itself.",
+      "intensity": 2,
+      "length": 51
+    },
+    {
+      "id": "en-1-301",
+      "text": "You import the entire library just to use one function.",
+      "intensity": 2,
+      "length": 55
+    },
+    {
+      "id": "en-1-302",
+      "text": "Your variable names are an unsolved mystery.",
+      "intensity": 2,
+      "length": 44
+    },
+    {
+      "id": "en-1-303",
+      "text": "You nest ternaries like they're Russian dolls.",
+      "intensity": 2,
+      "length": 46
+    },
+    {
+      "id": "en-1-304",
+      "text": "Your pull requests come with a survival guide.",
+      "intensity": 2,
+      "length": 46
+    },
+    {
+      "id": "en-1-305",
+      "text": "You think 'agile' means changing requirements daily.",
+      "intensity": 1,
+      "length": 52
+    },
+    {
+      "id": "en-1-306",
+      "text": "Your README promises features that don't exist.",
+      "intensity": 2,
+      "length": 47
+    },
+    {
+      "id": "en-1-307",
+      "text": "You hardcode API keys and call it 'convenience'.",
+      "intensity": 2,
+      "length": 48
+    },
+    {
+      "id": "en-1-308",
+      "text": "Your regex looks like a cat walked on the keyboard.",
+      "intensity": 2,
+      "length": 51
+    },
+    {
+      "id": "en-1-309",
+      "text": "You copy-paste from ChatGPT without reading it.",
+      "intensity": 3,
+      "length": 47
+    },
+    {
+      "id": "en-1-310",
+      "text": "Your codebase has more dead code than a haunted graveyard.",
+      "intensity": 3,
+      "length": 58
+    },
+    {
+      "id": "en-1-311",
+      "text": "You name functions 'doStuff' and 'handleThings'.",
+      "intensity": 2,
+      "length": 48
+    },
+    {
+      "id": "en-1-312",
+      "text": "Your package.json has more dependencies than your project has users.",
+      "intensity": 3,
+      "length": 68
+    },
+    {
+      "id": "en-1-313",
+      "text": "You use setTimeout to fix race conditions.",
+      "intensity": 2,
+      "length": 42
+    },
+    {
+      "id": "en-1-314",
+      "text": "Your deployment pipeline is just an SSH script and a prayer.",
+      "intensity": 2,
+      "length": 60
+    },
+    {
+      "id": "en-1-315",
+      "text": "You wrote a 500-line function and called it 'clean code'.",
+      "intensity": 1,
+      "length": 57
+    },
+    {
+      "id": "en-1-316",
+      "text": "Your test coverage is technically not zero, but spiritually it is.",
+      "intensity": 2,
+      "length": 66
+    },
+    {
+      "id": "en-1-317",
+      "text": "You version your API by adding numbers to the URL path randomly.",
+      "intensity": 2,
+      "length": 64
+    },
+    {
+      "id": "en-1-318",
+      "text": "Your commit messages are just emojis.",
+      "intensity": 2,
+      "length": 37
+    },
+    {
+      "id": "en-1-319",
+      "text": "You think TypeScript is optional JavaScript with extra steps.",
+      "intensity": 3,
+      "length": 61
+    },
+    {
+      "id": "en-1-320",
+      "text": "Your database has no indexes and you blame the ORM.",
+      "intensity": 2,
+      "length": 51
+    },
+    {
+      "id": "en-1-321",
+      "text": "You treat authentication as a nice-to-have.",
+      "intensity": 2,
+      "length": 43
+    },
+    {
+      "id": "en-1-322",
+      "text": "Your error pages have more personality than your app.",
+      "intensity": 1,
+      "length": 53
+    },
+    {
+      "id": "en-1-323",
+      "text": "You use eval() and sleep well at night.",
+      "intensity": 2,
+      "length": 39
+    },
+    {
+      "id": "en-1-324",
+      "text": "Your responsive design only works on your monitor.",
+      "intensity": 1,
+      "length": 50
+    },
+    {
+      "id": "en-1-325",
+      "text": "You solve every problem with another npm package.",
+      "intensity": 1,
+      "length": 49
+    },
+    {
+      "id": "en-1-326",
+      "text": "Your environment has more .env files than actual environments.",
+      "intensity": 2,
+      "length": 62
+    },
+    {
+      "id": "en-1-327",
+      "text": "You rebase like you're defusing a bomb blindfolded.",
+      "intensity": 2,
+      "length": 51
+    },
+    {
+      "id": "en-1-328",
+      "text": "Your code comments explain what the code does, not why.",
+      "intensity": 3,
+      "length": 55
+    },
+    {
+      "id": "en-1-329",
+      "text": "You use 'any' type in TypeScript and call it 'flexibility'.",
+      "intensity": 2,
+      "length": 59
+    },
+    {
+      "id": "en-1-330",
+      "text": "Your API returns 200 OK for everything, even errors.",
+      "intensity": 1,
+      "length": 52
+    },
+    {
+      "id": "en-1-331",
+      "text": "You store dates as strings and wonder why sorting breaks.",
+      "intensity": 2,
+      "length": 57
+    },
+    {
+      "id": "en-1-332",
+      "text": "Your webpack config is longer than your application.",
+      "intensity": 2,
+      "length": 52
+    },
+    {
+      "id": "en-1-333",
+      "text": "You've built a framework to avoid learning a framework.",
+      "intensity": 1,
+      "length": 55
+    },
+    {
+      "id": "en-1-334",
+      "text": "Your SQL injection protection is a strongly worded comment.",
+      "intensity": 3,
+      "length": 59
+    },
+    {
+      "id": "en-1-335",
+      "text": "You write switch statements with 47 cases and no default.",
+      "intensity": 2,
+      "length": 57
+    },
+    {
+      "id": "en-1-336",
+      "text": "Your mobile app is just a WebView with extra steps.",
+      "intensity": 2,
+      "length": 51
+    },
+    {
+      "id": "en-1-337",
+      "text": "You handle concurrency by hoping for the best.",
+      "intensity": 1,
+      "length": 46
+    },
+    {
+      "id": "en-1-338",
+      "text": "Your load balancer has a single backend.",
+      "intensity": 2,
+      "length": 40
+    },
+    {
+      "id": "en-1-339",
+      "text": "You use Base64 encoding and call it encryption.",
+      "intensity": 1,
+      "length": 47
+    },
+    {
+      "id": "en-1-340",
+      "text": "Your monitoring dashboard has been 'Coming Soon' for two years.",
+      "intensity": 2,
+      "length": 63
+    },
+    {
+      "id": "en-1-341",
+      "text": "You think CORS is a personal attack on your career.",
+      "intensity": 2,
+      "length": 51
+    },
+    {
+      "id": "en-1-342",
+      "text": "Your cache invalidation strategy is 'restart everything'.",
+      "intensity": 2,
+      "length": 57
+    },
+    {
+      "id": "en-1-343",
+      "text": "You build microservices that are just a distributed monolith.",
+      "intensity": 2,
+      "length": 61
+    },
+    {
+      "id": "en-1-344",
+      "text": "Your git stash is a time capsule of abandoned dreams.",
+      "intensity": 2,
+      "length": 53
+    },
+    {
+      "id": "en-1-345",
+      "text": "You write bash scripts that only work on your machine.",
+      "intensity": 3,
+      "length": 54
+    },
+    {
+      "id": "en-1-346",
+      "text": "Your code has more flags than the United Nations.",
+      "intensity": 2,
+      "length": 49
+    },
+    {
+      "id": "en-1-347",
+      "text": "You think semantic versioning means 'vibes-based numbering'.",
+      "intensity": 2,
+      "length": 60
+    },
+    {
+      "id": "en-1-348",
+      "text": "Your error logs are a novel nobody wants to read.",
+      "intensity": 2,
+      "length": 49
+    },
+    {
+      "id": "en-1-349",
+      "text": "You solve merge conflicts by accepting both changes.",
+      "intensity": 2,
+      "length": 52
+    },
+    {
+      "id": "en-1-350",
+      "text": "Your infrastructure is held together by duct tape and cron jobs.",
+      "intensity": 3,
+      "length": 64
+    },
+    {
+      "id": "en-1-351",
+      "text": "You use innerHTML like it owes you money.",
+      "intensity": 2,
+      "length": 41
+    },
+    {
+      "id": "en-1-352",
+      "text": "Your design system is 'whatever looked good at 2 AM'.",
+      "intensity": 1,
+      "length": 53
+    },
+    {
+      "id": "en-1-353",
+      "text": "Your sprint velocity is measured in excuses per day.",
+      "intensity": 3,
+      "length": 52
+    },
+    {
+      "id": "en-1-354",
+      "text": "You treat code review comments as optional literature.",
+      "intensity": 3,
+      "length": 54
+    },
+    {
+      "id": "en-1-355",
+      "text": "Your production database is also your dev database.",
+      "intensity": 3,
+      "length": 51
+    },
+    {
+      "id": "en-1-356",
+      "text": "You refactor by deleting everything and starting over.",
+      "intensity": 2,
+      "length": 54
+    },
+    {
+      "id": "en-1-357",
+      "text": "Your API pagination returns all results on page one.",
+      "intensity": 1,
+      "length": 52
+    },
+    {
+      "id": "en-1-358",
+      "text": "You think 'scalable' means 'I'll fix it once we have users'.",
+      "intensity": 1,
+      "length": 60
+    },
+    {
+      "id": "en-1-359",
+      "text": "Your retry logic is an infinite loop with attitude.",
+      "intensity": 1,
+      "length": 51
+    },
+    {
+      "id": "en-1-360",
+      "text": "You deploy by drag-and-dropping files on the server.",
+      "intensity": 2,
+      "length": 52
+    },
+    {
+      "id": "en-1-361",
+      "text": "Your unit tests mock the entire universe.",
+      "intensity": 2,
+      "length": 41
+    },
+    {
+      "id": "en-1-362",
+      "text": "You call your spaghetti code 'event-driven architecture'.",
+      "intensity": 1,
+      "length": 57
+    },
+    {
+      "id": "en-1-363",
+      "text": "Your logging strategy is console.log('here') in every file.",
+      "intensity": 1,
+      "length": 59
+    },
+    {
+      "id": "en-1-364",
+      "text": "You write JavaScript like it personally wronged you.",
+      "intensity": 2,
+      "length": 52
+    },
+    {
+      "id": "en-1-365",
+      "text": "Your API rate limit is 'unlimited until the server catches fire'.",
+      "intensity": 1,
+      "length": 65
+    },
+    {
+      "id": "en-1-366",
+      "text": "Your database migrations scare even the DBA.",
+      "intensity": 2,
+      "length": 44
+    },
+    {
+      "id": "en-1-367",
+      "text": "You solve performance issues by buying bigger servers.",
+      "intensity": 2,
+      "length": 54
+    },
+    {
+      "id": "en-1-368",
+      "text": "Your CI pipeline takes longer than most movie trilogies.",
+      "intensity": 2,
+      "length": 56
+    },
+    {
+      "id": "en-1-369",
+      "text": "You use global variables because 'sharing is caring'.",
+      "intensity": 2,
+      "length": 53
+    },
+    {
+      "id": "en-1-370",
+      "text": "Your code formatting is an abstract art installation.",
+      "intensity": 3,
+      "length": 53
+    },
+    {
+      "id": "en-1-371",
+      "text": "You handle null by pretending it's someone else's problem.",
+      "intensity": 1,
+      "length": 58
+    },
+    {
+      "id": "en-1-372",
+      "text": "Your tech stack changes every sprint.",
+      "intensity": 2,
+      "length": 37
+    },
+    {
+      "id": "en-1-373",
+      "text": "You think 'backwards compatible' means 'it still compiles'.",
+      "intensity": 1,
+      "length": 59
+    },
+    {
+      "id": "en-1-374",
+      "text": "Your rollback plan is 'git revert and hope'.",
+      "intensity": 3,
+      "length": 44
+    },
+    {
+      "id": "en-1-375",
+      "text": "You write promises and never resolve them, just like your tasks.",
+      "intensity": 2,
+      "length": 64
+    },
+    {
+      "id": "en-1-376",
+      "text": "Your type safety is 'I'll add types later, I promise'.",
+      "intensity": 2,
+      "length": 54
+    },
+    {
+      "id": "en-1-377",
+      "text": "Your frontend sends 47 API calls on page load.",
+      "intensity": 2,
+      "length": 46
+    },
+    {
+      "id": "en-1-378",
+      "text": "You build REST APIs that aren't RESTful in any way.",
+      "intensity": 2,
+      "length": 51
+    },
+    {
+      "id": "en-1-379",
+      "text": "Your Kubernetes cluster runs a single container.",
+      "intensity": 2,
+      "length": 48
+    },
+    {
+      "id": "en-1-380",
+      "text": "You think OAuth is just 'login with Google'.",
+      "intensity": 1,
+      "length": 44
+    },
+    {
+      "id": "en-1-381",
+      "text": "Your caching layer caches nothing useful.",
+      "intensity": 2,
+      "length": 41
+    },
+    {
+      "id": "en-1-382",
+      "text": "You use regex to parse HTML and wonder why it breaks.",
+      "intensity": 2,
+      "length": 53
+    },
+    {
+      "id": "en-1-383",
+      "text": "Your service mesh is just services that happen to be near each other.",
+      "intensity": 3,
+      "length": 69
+    },
+    {
+      "id": "en-1-384",
+      "text": "You handle time zones by ignoring them completely.",
+      "intensity": 2,
+      "length": 50
+    },
+    {
+      "id": "en-1-385",
+      "text": "Your GraphQL queries fetch the entire database.",
+      "intensity": 2,
+      "length": 47
+    },
+    {
+      "id": "en-1-386",
+      "text": "You write middleware that does everything except its actual job.",
+      "intensity": 2,
+      "length": 64
+    },
+    {
+      "id": "en-1-387",
+      "text": "Your feature branches have been alive longer than some startups.",
+      "intensity": 3,
+      "length": 64
+    },
+    {
+      "id": "en-1-388",
+      "text": "You think connection pooling means opening a new connection every time.",
+      "intensity": 2,
+      "length": 71
+    },
+    {
+      "id": "en-1-389",
+      "text": "Your CDN serves stale content from last year.",
+      "intensity": 3,
+      "length": 45
+    },
+    {
+      "id": "en-1-390",
+      "text": "You use localStorage for user sessions.",
+      "intensity": 2,
+      "length": 39
+    },
+    {
+      "id": "en-1-391",
+      "text": "Your websocket connection reconnects more than your relationships.",
+      "intensity": 3,
+      "length": 66
+    },
+    {
+      "id": "en-1-392",
+      "text": "Your serverless functions have a 30-second cold start.",
+      "intensity": 2,
+      "length": 54
+    },
+    {
+      "id": "en-1-393",
+      "text": "You think 'idempotent' is a compliment.",
+      "intensity": 2,
+      "length": 39
+    },
+    {
+      "id": "en-1-394",
+      "text": "Your database schema was designed during a fever dream.",
+      "intensity": 2,
+      "length": 55
+    },
+    {
+      "id": "en-1-395",
+      "text": "You use floating point for currency and blame JavaScript.",
+      "intensity": 2,
+      "length": 57
+    },
+    {
+      "id": "en-1-396",
+      "text": "Your health check endpoint always returns 200, even when the app is dead.",
+      "intensity": 2,
+      "length": 73
+    },
+    {
+      "id": "en-1-397",
+      "text": "You think 'eventual consistency' means 'maybe it'll work eventually'.",
+      "intensity": 3,
+      "length": 69
+    },
+    {
+      "id": "en-1-398",
+      "text": "Your npm audit has more vulnerabilities than lines of code.",
+      "intensity": 2,
+      "length": 59
+    },
+    {
+      "id": "en-1-399",
+      "text": "You name your Docker images 'latest' and wonder why deploys break.",
+      "intensity": 1,
+      "length": 66
     }
   ]
 }

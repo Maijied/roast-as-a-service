@@ -2,7 +2,7 @@
   "language": "bn",
   "shard": 1,
   "total_shards": 1,
-  "count": 248,
+  "count": 348,
   "tags": [
     "dev",
     "general"
@@ -1495,6 +1495,606 @@
       "text": "তোর কোড দেখে বোঝা যায়, তুই error message কখনো full পড়িস না।",
       "intensity": 2,
       "length": 61
+    },
+    {
+      "id": "bn-1-249",
+      "text": "তোর প্রজেক্টে dependency বেশি, feature কম।",
+      "intensity": 2,
+      "length": 42
+    },
+    {
+      "id": "bn-1-250",
+      "text": "তুই ChatGPT থেকে কপি করিস, পড়িস না।",
+      "intensity": 1,
+      "length": 36
+    },
+    {
+      "id": "bn-1-251",
+      "text": "তোর ভ্যারিয়েবলের নাম 'x', 'y', 'temp' — ম্যাথ না কোড?",
+      "intensity": 2,
+      "length": 54
+    },
+    {
+      "id": "bn-1-252",
+      "text": "তোর pull request দেখে reviewer-ও resign দিতে চায়।",
+      "intensity": 2,
+      "length": 50
+    },
+    {
+      "id": "bn-1-253",
+      "text": "তুই regex লিখিস নাকি alien-দের সাথে কথা বলিস?",
+      "intensity": 2,
+      "length": 45
+    },
+    {
+      "id": "bn-1-254",
+      "text": "তোর কোডে dead code বেশি, live code কম।",
+      "intensity": 2,
+      "length": 38
+    },
+    {
+      "id": "bn-1-255",
+      "text": "তুই function-এর নাম দিস 'doStuff' — কোন stuff?",
+      "intensity": 2,
+      "length": 46
+    },
+    {
+      "id": "bn-1-256",
+      "text": "তোর package.json-এ dependency বেশি, user কম।",
+      "intensity": 3,
+      "length": 44
+    },
+    {
+      "id": "bn-1-257",
+      "text": "তুই race condition fix করিস setTimeout দিয়ে।",
+      "intensity": 2,
+      "length": 45
+    },
+    {
+      "id": "bn-1-258",
+      "text": "তোর deploy pipeline হলো SSH আর দোয়া।",
+      "intensity": 2,
+      "length": 37
+    },
+    {
+      "id": "bn-1-259",
+      "text": "তুই ৫০০ লাইনের function লিখে বলিস 'clean code'।",
+      "intensity": 3,
+      "length": 47
+    },
+    {
+      "id": "bn-1-260",
+      "text": "তোর test coverage শূন্যের কাছাকাছি, কিন্তু শূন্য না।",
+      "intensity": 2,
+      "length": 52
+    },
+    {
+      "id": "bn-1-261",
+      "text": "তোর commit message শুধু emoji।",
+      "intensity": 3,
+      "length": 30
+    },
+    {
+      "id": "bn-1-262",
+      "text": "তুই TypeScript-কে বলিস 'extra কাজ'।",
+      "intensity": 1,
+      "length": 35
+    },
+    {
+      "id": "bn-1-263",
+      "text": "তোর database-এ index নেই, আর তুই ORM-কে দোষ দিস।",
+      "intensity": 2,
+      "length": 48
+    },
+    {
+      "id": "bn-1-264",
+      "text": "তুই authentication-কে বলিস 'পরে করব'।",
+      "intensity": 3,
+      "length": 37
+    },
+    {
+      "id": "bn-1-265",
+      "text": "তোর error page-এ বেশি personality, app-এ কম।",
+      "intensity": 3,
+      "length": 44
+    },
+    {
+      "id": "bn-1-266",
+      "text": "তুই eval() ব্যবহার করে ঘুমাস শান্তিতে।",
+      "intensity": 2,
+      "length": 38
+    },
+    {
+      "id": "bn-1-267",
+      "text": "তোর responsive design শুধু তোর মনিটরে কাজ করে।",
+      "intensity": 3,
+      "length": 46
+    },
+    {
+      "id": "bn-1-268",
+      "text": "তুই প্রতিটা সমস্যার সমাধান করিস নতুন npm package দিয়ে।",
+      "intensity": 2,
+      "length": 55
+    },
+    {
+      "id": "bn-1-269",
+      "text": "তোর .env ফাইল বেশি, environment কম।",
+      "intensity": 2,
+      "length": 35
+    },
+    {
+      "id": "bn-1-270",
+      "text": "তুই rebase করিস চোখ বন্ধ করে।",
+      "intensity": 2,
+      "length": 29
+    },
+    {
+      "id": "bn-1-271",
+      "text": "তোর code comment বলে 'কী করে', 'কেন করে' বলে না।",
+      "intensity": 1,
+      "length": 48
+    },
+    {
+      "id": "bn-1-272",
+      "text": "তুই TypeScript-এ 'any' ব্যবহার করে বলিস 'flexibility'।",
+      "intensity": 2,
+      "length": 54
+    },
+    {
+      "id": "bn-1-273",
+      "text": "তোর API সব কিছুতেই 200 OK দেয়, error-ও।",
+      "intensity": 2,
+      "length": 40
+    },
+    {
+      "id": "bn-1-274",
+      "text": "তুই date string-এ রাখিস, sorting ভাঙে তো দোষ দিস।",
+      "intensity": 2,
+      "length": 49
+    },
+    {
+      "id": "bn-1-275",
+      "text": "তোর webpack config-ই একটা আলাদা প্রজেক্ট।",
+      "intensity": 1,
+      "length": 41
+    },
+    {
+      "id": "bn-1-276",
+      "text": "তুই framework শিখতে না পেরে নিজে বানাইছিস।",
+      "intensity": 2,
+      "length": 42
+    },
+    {
+      "id": "bn-1-277",
+      "text": "তোর SQL injection protection হলো একটা comment।",
+      "intensity": 1,
+      "length": 46
+    },
+    {
+      "id": "bn-1-278",
+      "text": "তুই switch statement-এ ৫০টা case লিখিস, default নেই।",
+      "intensity": 3,
+      "length": 52
+    },
+    {
+      "id": "bn-1-279",
+      "text": "তোর mobile app আসলে একটা WebView।",
+      "intensity": 2,
+      "length": 33
+    },
+    {
+      "id": "bn-1-280",
+      "text": "তুই concurrency handle করিস আশা দিয়ে।",
+      "intensity": 1,
+      "length": 38
+    },
+    {
+      "id": "bn-1-281",
+      "text": "তোর load balancer-এ একটাই backend আছে।",
+      "intensity": 2,
+      "length": 38
+    },
+    {
+      "id": "bn-1-282",
+      "text": "তুই Base64 করে বলিস 'encrypted'।",
+      "intensity": 2,
+      "length": 32
+    },
+    {
+      "id": "bn-1-283",
+      "text": "তোর monitoring dashboard দুই বছর ধরে 'Coming Soon'।",
+      "intensity": 2,
+      "length": 51
+    },
+    {
+      "id": "bn-1-284",
+      "text": "তুই CORS দেখলেই panic করিস।",
+      "intensity": 2,
+      "length": 27
+    },
+    {
+      "id": "bn-1-285",
+      "text": "তোর cache invalidation strategy হলো 'সব restart করো'।",
+      "intensity": 2,
+      "length": 53
+    },
+    {
+      "id": "bn-1-286",
+      "text": "তুই microservice বানাইছিস যেটা আসলে distributed monolith।",
+      "intensity": 2,
+      "length": 57
+    },
+    {
+      "id": "bn-1-287",
+      "text": "তোর git stash হলো হারিয়ে যাওয়া স্বপ্নের গুদাম।",
+      "intensity": 3,
+      "length": 48
+    },
+    {
+      "id": "bn-1-288",
+      "text": "তোর bash script শুধু তোর machine-এ চলে।",
+      "intensity": 2,
+      "length": 39
+    },
+    {
+      "id": "bn-1-289",
+      "text": "তোর কোডে flag বেশি, United Nations-এর মতো।",
+      "intensity": 2,
+      "length": 42
+    },
+    {
+      "id": "bn-1-290",
+      "text": "তুই semantic versioning-কে বলিস 'মনের মতো নম্বর'।",
+      "intensity": 2,
+      "length": 49
+    },
+    {
+      "id": "bn-1-291",
+      "text": "তোর error log একটা উপন্যাস যা কেউ পড়তে চায় না।",
+      "intensity": 1,
+      "length": 48
+    },
+    {
+      "id": "bn-1-292",
+      "text": "তুই merge conflict solve করিস দুই দিকই accept করে।",
+      "intensity": 1,
+      "length": 50
+    },
+    {
+      "id": "bn-1-293",
+      "text": "তোর infrastructure চলে duct tape আর cron job দিয়ে।",
+      "intensity": 1,
+      "length": 51
+    },
+    {
+      "id": "bn-1-294",
+      "text": "তুই innerHTML ব্যবহার করিস যেন ওটা তোর বাবার property।",
+      "intensity": 2,
+      "length": 54
+    },
+    {
+      "id": "bn-1-295",
+      "text": "তোর design system হলো 'রাত ২টায় যেটা ভালো লেগেছে'।",
+      "intensity": 2,
+      "length": 51
+    },
+    {
+      "id": "bn-1-296",
+      "text": "তোর sprint velocity মাপা হয় excuse per day-তে।",
+      "intensity": 2,
+      "length": 47
+    },
+    {
+      "id": "bn-1-297",
+      "text": "তুই code review comment-কে optional মনে করিস।",
+      "intensity": 1,
+      "length": 45
+    },
+    {
+      "id": "bn-1-298",
+      "text": "তোর production database-ই তোর dev database।",
+      "intensity": 3,
+      "length": 43
+    },
+    {
+      "id": "bn-1-299",
+      "text": "তুই refactor মানে সব delete করে আবার শুরু করা।",
+      "intensity": 3,
+      "length": 46
+    },
+    {
+      "id": "bn-1-300",
+      "text": "তোর API pagination প্রথম page-এই সব দেয়।",
+      "intensity": 3,
+      "length": 41
+    },
+    {
+      "id": "bn-1-301",
+      "text": "তুই 'scalable' মানে বলিস 'user আসলে fix করব'।",
+      "intensity": 3,
+      "length": 45
+    },
+    {
+      "id": "bn-1-302",
+      "text": "তোর retry logic হলো infinite loop with attitude।",
+      "intensity": 1,
+      "length": 48
+    },
+    {
+      "id": "bn-1-303",
+      "text": "তুই deploy করিস file drag-and-drop করে server-এ।",
+      "intensity": 3,
+      "length": 48
+    },
+    {
+      "id": "bn-1-304",
+      "text": "তোর unit test পুরো universe mock করে।",
+      "intensity": 2,
+      "length": 37
+    },
+    {
+      "id": "bn-1-305",
+      "text": "তুই spaghetti code-কে বলিস 'event-driven architecture'।",
+      "intensity": 2,
+      "length": 55
+    },
+    {
+      "id": "bn-1-306",
+      "text": "তোর logging strategy হলো প্রতি ফাইলে console.log('here')।",
+      "intensity": 2,
+      "length": 57
+    },
+    {
+      "id": "bn-1-307",
+      "text": "তুই JavaScript লিখিস যেন ওটা তোকে personally ক্ষতি করেছে।",
+      "intensity": 2,
+      "length": 57
+    },
+    {
+      "id": "bn-1-308",
+      "text": "তোর API rate limit হলো 'server fire না ধরা পর্যন্ত unlimited'।",
+      "intensity": 2,
+      "length": 62
+    },
+    {
+      "id": "bn-1-309",
+      "text": "তোর database migration দেখে DBA-ও ভয় পায়।",
+      "intensity": 2,
+      "length": 43
+    },
+    {
+      "id": "bn-1-310",
+      "text": "তুই performance সমস্যা solve করিস বড় server কিনে।",
+      "intensity": 3,
+      "length": 50
+    },
+    {
+      "id": "bn-1-311",
+      "text": "তোর CI pipeline movie trilogy-র চেয়ে বেশি সময় নেয়।",
+      "intensity": 2,
+      "length": 53
+    },
+    {
+      "id": "bn-1-312",
+      "text": "তুই global variable ব্যবহার করিস কারণ 'sharing is caring'।",
+      "intensity": 2,
+      "length": 58
+    },
+    {
+      "id": "bn-1-313",
+      "text": "তোর code formatting একটা abstract art।",
+      "intensity": 2,
+      "length": 38
+    },
+    {
+      "id": "bn-1-314",
+      "text": "তুই null handle করিস অন্যের ঘাড়ে চাপিয়ে দিয়ে।",
+      "intensity": 2,
+      "length": 48
+    },
+    {
+      "id": "bn-1-315",
+      "text": "তোর tech stack প্রতি sprint-এ বদলায়।",
+      "intensity": 1,
+      "length": 37
+    },
+    {
+      "id": "bn-1-316",
+      "text": "তুই 'backwards compatible' মানে বলিস 'compile হয় তো'।",
+      "intensity": 2,
+      "length": 54
+    },
+    {
+      "id": "bn-1-317",
+      "text": "তোর rollback plan হলো 'git revert আর আশা'।",
+      "intensity": 3,
+      "length": 42
+    },
+    {
+      "id": "bn-1-318",
+      "text": "তুই promise লিখিস কিন্তু resolve করিস না, task-এর মতো।",
+      "intensity": 2,
+      "length": 54
+    },
+    {
+      "id": "bn-1-319",
+      "text": "তোর type safety হলো 'পরে type দেব, promise'।",
+      "intensity": 2,
+      "length": 44
+    },
+    {
+      "id": "bn-1-320",
+      "text": "তোর frontend page load-এ ৫০টা API call করে।",
+      "intensity": 2,
+      "length": 43
+    },
+    {
+      "id": "bn-1-321",
+      "text": "তুই REST API বানাইছিস যেটা কোনোভাবেই RESTful না।",
+      "intensity": 2,
+      "length": 48
+    },
+    {
+      "id": "bn-1-322",
+      "text": "তোর Kubernetes cluster-এ একটাই container চলে।",
+      "intensity": 2,
+      "length": 45
+    },
+    {
+      "id": "bn-1-323",
+      "text": "তুই OAuth মানে বলিস 'Google দিয়ে login'।",
+      "intensity": 3,
+      "length": 41
+    },
+    {
+      "id": "bn-1-324",
+      "text": "তোর caching layer কিছুই cache করে না।",
+      "intensity": 2,
+      "length": 37
+    },
+    {
+      "id": "bn-1-325",
+      "text": "তুই regex দিয়ে HTML parse করিস।",
+      "intensity": 2,
+      "length": 32
+    },
+    {
+      "id": "bn-1-326",
+      "text": "তোর service mesh মানে কিছু service যেগুলো কাছাকাছি আছে।",
+      "intensity": 2,
+      "length": 55
+    },
+    {
+      "id": "bn-1-327",
+      "text": "তুই timezone handle করিস ignore করে।",
+      "intensity": 3,
+      "length": 36
+    },
+    {
+      "id": "bn-1-328",
+      "text": "তোর GraphQL query পুরো database fetch করে।",
+      "intensity": 2,
+      "length": 42
+    },
+    {
+      "id": "bn-1-329",
+      "text": "তুই middleware লিখিস যেটা নিজের কাজ ছাড়া সব করে।",
+      "intensity": 1,
+      "length": 49
+    },
+    {
+      "id": "bn-1-330",
+      "text": "তোর feature branch কিছু startup-এর চেয়ে বেশিদিন বেঁচে আছে।",
+      "intensity": 3,
+      "length": 59
+    },
+    {
+      "id": "bn-1-331",
+      "text": "তুই connection pooling মানে বলিস 'প্রতিবার নতুন connection'।",
+      "intensity": 2,
+      "length": 60
+    },
+    {
+      "id": "bn-1-332",
+      "text": "তোর CDN গতবছরের stale content serve করে।",
+      "intensity": 2,
+      "length": 40
+    },
+    {
+      "id": "bn-1-333",
+      "text": "তুই localStorage-এ user session রাখিস।",
+      "intensity": 1,
+      "length": 38
+    },
+    {
+      "id": "bn-1-334",
+      "text": "তোর websocket তোর relationship-এর চেয়ে বেশি reconnect করে।",
+      "intensity": 3,
+      "length": 59
+    },
+    {
+      "id": "bn-1-335",
+      "text": "তোর serverless function-এর cold start ৩০ সেকেন্ড।",
+      "intensity": 2,
+      "length": 49
+    },
+    {
+      "id": "bn-1-336",
+      "text": "তুই 'idempotent' কে প্রশংসা মনে করিস।",
+      "intensity": 2,
+      "length": 37
+    },
+    {
+      "id": "bn-1-337",
+      "text": "তোর database schema fever dream-এ design করা।",
+      "intensity": 1,
+      "length": 45
+    },
+    {
+      "id": "bn-1-338",
+      "text": "তুই currency-তে floating point ব্যবহার করে JavaScript-কে দোষ দিস।",
+      "intensity": 1,
+      "length": 65
+    },
+    {
+      "id": "bn-1-339",
+      "text": "তোর health check endpoint সবসময় 200 দেয়, app dead হলেও।",
+      "intensity": 3,
+      "length": 57
+    },
+    {
+      "id": "bn-1-340",
+      "text": "তুই 'eventual consistency' মানে বলিস 'কোনো একদিন কাজ করবে'।",
+      "intensity": 3,
+      "length": 59
+    },
+    {
+      "id": "bn-1-341",
+      "text": "তোর npm audit-এ vulnerability বেশি, code line কম।",
+      "intensity": 2,
+      "length": 49
+    },
+    {
+      "id": "bn-1-342",
+      "text": "তুই Docker image-এর নাম দিস 'latest', deploy ভাঙে তো কাঁদিস।",
+      "intensity": 3,
+      "length": 60
+    },
+    {
+      "id": "bn-1-343",
+      "text": "তোর API documentation হলো 'Postman collection দেখো'।",
+      "intensity": 1,
+      "length": 52
+    },
+    {
+      "id": "bn-1-344",
+      "text": "তুই environment variable hardcode করে বলিস 'quick fix'।",
+      "intensity": 1,
+      "length": 55
+    },
+    {
+      "id": "bn-1-345",
+      "text": "তোর git log দেখলে মনে হয় কেউ keyboard-এ বসে গেছে।",
+      "intensity": 2,
+      "length": 50
+    },
+    {
+      "id": "bn-1-346",
+      "text": "তুই production-এ debug করিস user-দের QA বানিয়ে।",
+      "intensity": 3,
+      "length": 48
+    },
+    {
+      "id": "bn-1-347",
+      "text": "তোর 'one more change' শুনলে version control কেঁপে ওঠে।",
+      "intensity": 3,
+      "length": 54
+    },
+    {
+      "id": "bn-1-348",
+      "text": "তোর কোড পড়ে AI-ও confused হয়ে যায়।",
+      "intensity": 2,
+      "length": 37
     }
   ]
 }
