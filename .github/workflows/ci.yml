@@ -1,0 +1,123 @@
+name: RaaS CI/CD Pipeline
+
+# Runs on every push to main AND on version tags
+on:
+  push:
+    branches: ["main"]
+    tags:
+      - 'v*.*.*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # ──────────────────────────────────────────────
+  # STEP 1: Deploy website to GitHub Pages (every push)
+  # ──────────────────────────────────────────────
+  deploy-pages:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  # ──────────────────────────────────────────────
+  # STEP 2: Publish to npm (only on version tags)
+  # ──────────────────────────────────────────────
+  publish-npm:
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: deploy-pages
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Publish to npm
+        run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+  # ──────────────────────────────────────────────
+  # STEP 3: Publish to PyPI (only on version tags)
+  # ──────────────────────────────────────────────
+  publish-pypi:
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: deploy-pages
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install build tools
+        run: pip install build twine
+
+      - name: Build package
+        run: python -m build
+
+      - name: Publish to PyPI
+        run: twine upload dist/*
+        env:
+          TWINE_USERNAME: __token__
+          TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
+
+  # ──────────────────────────────────────────────
+  # STEP 4: Notify Packagist (only on version tags)
+  # ──────────────────────────────────────────────
+  notify-packagist:
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: deploy-pages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Packagist to sync
+        run: |
+          curl -s -X POST "https://packagist.org/api/update-package?username=${{ secrets.PACKAGIST_USERNAME }}&apiToken=${{ secrets.PACKAGIST_TOKEN }}" \
+            -H "Content-Type: application/json" \
+            -d '{"repository":{"url":"https://github.com/Maijied/roast-as-a-service"}}'
+
+  # ──────────────────────────────────────────────
+  # STEP 5: Create GitHub Release (only on version tags)
+  # ──────────────────────────────────────────────
+  create-release:
+    if: startsWith(github.ref, 'refs/tags/v')
+    needs: [publish-npm, publish-pypi, notify-packagist]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          generate_release_notes: true
+          files: |
+            api/client.js
+            src/RaaS.php
+            roast_api/client.py
+            postman/roast-as-a-service.postman_collection.json
