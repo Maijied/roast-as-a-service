@@ -89,6 +89,16 @@ body {
     backdrop-filter: blur(4px);
 }
 
+.hero-badges img {
+    height: 24px;
+    width: auto;
+    transition: transform 0.3s var(--ease-premium);
+}
+
+.hero-badges a:hover img {
+    transform: scale(1.05);
+}
+
 .brand-pill a {
     color: var(--accent);
     text-decoration: none;
