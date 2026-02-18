@@ -30,7 +30,7 @@
         <header class="hero">
             <div class="hero-text">
                 <div class="brand-pill">
-                    ⚡ Released v1.5.2 · <a href="https://github.com/Maijied/lorapok" target="_blank">Lorapok</a>
+                    ⚡ Released v1.5.3 · <a href="https://github.com/Maijied/lorapok" target="_blank">Lorapok</a>
                 </div>
                 <h1>
                     <img src="./assets/logo.png" alt="RaaS Logo" class="logo-md" />
@@ -79,74 +79,151 @@ $ raas get --lang=en
 
         <main>
             <section class="section">
-                <h2>The RaaS Edge</h2>
+                <h2>How it works</h2>
+                <p style="color: var(--text-muted); margin-bottom: 3rem; font-size: 1.125rem; max-width: 800px;">
+                    RaaS exposes sharded JSON datasets over GitHub Pages, then a tiny client SDK picks, filters, and
+                    caches roasts in the browser, giving you an API‑like experience with pure static hosting.
+                </p>
                 <div class="grid">
                     <div class="card">
                         <div style="font-size: 2rem; margin-bottom: 1.5rem;">🚀</div>
-                        <h3>Edge Delivery</h3>
+                        <h3>Static API</h3>
                         <p>
-                            Distributed via GitHub Pages’ global PoPs. Zero application servers, zero cold starts, and
-                            ultra-low TTFB.
+                            Roasts are stored in language‑specific shards (<code>en</code>, <code>bn</code>) and served
+                            as JSON over GitHub Pages’ global CDN for low TTFB.
                         </p>
                     </div>
                     <div class="card">
                         <div style="font-size: 2rem; margin-bottom: 1.5rem;">🧠</div>
-                        <h3>Smart SDK</h3>
+                        <h3>Smart client</h3>
                         <p>
-                            Client-side logic handles randomness and caching. You get a dynamic API experience with 100%
-                            static reliability.
+                            The bundled client fetches a small shard, caches it, and returns random roasts with optional
+                            intensity and length filters.
                         </p>
                     </div>
                     <div class="card">
                         <div style="font-size: 2rem; margin-bottom: 1.5rem;">🛡️</div>
-                        <h3>Zero Ops</h3>
+                        <h3>Zero ops</h3>
                         <p>
-                            No databases to maintain. No traffic spikes to worry about. Git push is your deployment
-                            pipeline.
+                            No servers, no cold starts, no scaling issues. Push to main, let Pages deploy and cache
+                            everything at the edge.
                         </p>
                     </div>
                 </div>
             </section>
 
             <section class="section">
-                <h2>Quick Start</h2>
-                <div class="code-grid">
-                    <div class="code-card">
-                        <h3>package: npm</h3>
-                        <pre><code>npm i roast-api
+                <h2>Why this architecture feels overkill</h2>
+                <p style="color: var(--text-muted); margin-bottom: 3rem; font-size: 1.125rem; max-width: 800px;">
+                    RaaS is not a toy endpoint glued to a random server. It is a static API designed to exploit CDN edge
+                    caching and sharded JSON so you get API-level UX without any backend attached.
+                </p>
+                <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));">
+                    <div class="card" style="padding: 2.5rem 2rem;">
+                        <h3>Edge-first delivery</h3>
+                        <p style="font-size: 0.95rem;">
+                            All JSON/JS is served from global PoPs, satisfied from edge cache with minimal latency and
+                            no application server in the path.
+                        </p>
+                    </div>
+                    <div class="card" style="padding: 2.5rem 2rem;">
+                        <h3>Static API, dynamic feel</h3>
+                        <p style="font-size: 0.95rem;">
+                            The API surface is files, but the SDK handles randomness and filtering to make it behave
+                            like a dynamic service while staying 100% static.
+                        </p>
+                    </div>
+                    <div class="card" style="padding: 2.5rem 2rem;">
+                        <h3>Shard &amp; scale</h3>
+                        <p style="font-size: 0.95rem;">
+                            Roasts are split into language shards, which keeps payloads small, cache hit rates high, and
+                            lets you grow without slowing down clients.
+                        </p>
+                    </div>
+                    <div class="card" style="padding: 2.5rem 2rem;">
+                        <h3>Operationally boring</h3>
+                        <p style="font-size: 0.95rem;">
+                            No servers, no containers, no autoscaling. Git pushes become deployments, and the CDN takes
+                            care of distribution and reliability.
+                        </p>
+                    </div>
+                </div>
+            </section>
 
-const RaaS = require('roast-api');
-RaaS.getRandomRoast()
-  .then(r =&gt; console.log(r.text));</code></pre>
+            <section class="section">
+                <h2>API Usage</h2>
+                <p style="color: var(--text-muted); margin-bottom: 2rem; font-size: 1.125rem;">RaaS is a read‑only
+                    static API. Interact with it using simple GET requests or the SDK.</p>
+                <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));">
+                    <div class="code-card">
+                        <h3>cURL</h3>
+                        <pre style="color: #cbd5e1;"><code># Get English shard 1
+curl https://maijied.github.io/roast-as-a-service/api/en/roasts-en-1.json
+
+# Pretty-print first roast (requires jq)
+curl -s https://maijied.github.io/roast-as-a-service/api/en/roasts-en-1.json \
+  | jq '.roasts[0].text'</code></pre>
                     </div>
                     <div class="code-card">
-                        <h3>package: PHP</h3>
-                        <pre><code>composer require maizied/roast-api
+                        <h3>Node.js Fetch</h3>
+                        <pre style="color: #cbd5e1;"><code>import fetch from 'node-fetch';
 
-use Maizied\RoastApi\RaaS;
-echo RaaS::getRandomRoast()['text'];</code></pre>
+async function getRandomRoast(lang = 'en') {
+  const url = `.../api/${lang}/roasts-${lang}-1.json`;
+  const res = await fetch(url);
+  const data = await res.json();
+  const list = data.roasts;
+  return list[Math.floor(Math.random() * list.length)].text;
+}</code></pre>
                     </div>
-                    <div class="code-card">
-                        <h3>package: Python</h3>
-                        <pre><code>pip install roast-api
+                </div>
+            </section>
 
-from roast_api import get_random_roast
-print(get_random_roast()['text'])</code></pre>
+            <section class="section">
+                <h2>Performance</h2>
+                <div class="perf-card">
+                    <div class="perf-grid">
+                        <div class="perf-stat">
+                            <span class="perf-value">2,000+</span>
+                            <span class="perf-label">Requests / Sec</span>
+                        </div>
+                        <div class="perf-stat">
+                            <span class="perf-value">100%</span>
+                            <span class="perf-label">Success Rate</span>
+                        </div>
+                        <div class="perf-stat">
+                            <span class="perf-value">~50ms</span>
+                            <span class="perf-label">Avg Latency</span>
+                        </div>
+                        <div class="perf-stat">
+                            <span class="perf-value">90%</span>
+                            <span class="perf-label">Cache Hits</span>
+                        </div>
                     </div>
-                    <div class="code-card">
-                        <h3>Browser Script</h3>
-                        <pre><code>&lt;script src=".../client.js"&gt;&lt;/script&gt;
+                    <p style="font-size: 1rem; color: var(--text-muted); max-width: 700px; margin: 0 auto;">
+                        Zero backend, zero cold starts. Optimized for extreme throughput and low TTFB using GitHub
+                        Pages' edge CDN.
+                    </p>
+                </div>
+            </section>
 
-RaaS.getRandomRoast()
-  .then(r =&gt; console.log(r.text));</code></pre>
-                    </div>
+            <section class="section">
+                <h2>Postman Collection</h2>
+                <p style="color: var(--text-muted); margin-bottom: 2rem; font-size: 1.125rem;">Prefer GUI testing?
+                    Import our collection and hit the static endpoints directly.</p>
+                <div class="card"
+                    style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 1.5rem;">
+                    <h3>Ready to Test?</h3>
+                    <p>Download the official Postman collection to explore all API shards and endpoints instantly.</p>
+                    <a href="./postman/roast-as-a-service.postman_collection.json" download class="btn primary"
+                        style="width: auto;">
+                        Download Collection (JSON)
+                    </a>
                 </div>
             </section>
 
             <section class="section">
                 <h2>Dataset Shards</h2>
-                <p style="color: var(--text-muted); margin-bottom: 2rem; font-size: 1.125rem;">Sharded JSON for optimal
-                    payload size and cache hit rates.</p>
                 <div class="grid">
                     <div class="card"
                         style="display: flex; justify-content: space-between; align-items: center; padding: 2.5rem;">
@@ -192,6 +269,8 @@ RaaS.getRandomRoast()
             <div class="footer-nav">
                 <a href="mailto:mdshuvo40@gmail.com">Contact</a>
                 <a href="https://github.com/Maijied/roast-as-a-service/issues">Report Humor Issue</a>
+                <img src="https://hits.sh/maijied.github.io/roast-as-a-service.svg?view=today-total&style=flat-square&label=visitors&color=ec4899&labelColor=020617"
+                    alt="Visitors" style="margin-left: 1rem; opacity: 0.8;" />
             </div>
         </footer>
     </div>

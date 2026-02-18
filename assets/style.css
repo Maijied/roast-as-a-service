@@ -379,7 +379,46 @@ h2 {
     transform: scale(1.05);
 }
 
-/* Animations */
+/* Performance Section Refinement */
+.perf-card {
+    background: linear-gradient(135deg, rgba(249, 115, 22, 0.05), rgba(236, 72, 153, 0.05));
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 3rem;
+    border-radius: 32px;
+    text-align: center;
+}
+
+.perf-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+
+.perf-stat {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.perf-value {
+    font-family: var(--font-heading);
+    font-size: 2.5rem;
+    font-weight: 800;
+    background: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.perf-label {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: var(--text-soft);
+    font-weight: 700;
+}
+
+/* Animations update */
 @keyframes fadeInSlide {
     from {
         opacity: 0;
@@ -423,6 +462,10 @@ h2 {
         margin-left: auto;
         margin-right: auto;
     }
+
+    .perf-grid {
+        gap: 2rem;
+    }
 }
 
 @media (max-width: 640px) {
@@ -441,5 +484,9 @@ h2 {
 
     .grid {
         grid-template-columns: 1fr;
+    }
+
+    .perf-value {
+        font-size: 2rem;
     }
 }
