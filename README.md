@@ -7,9 +7,13 @@
   <img src="https://hits.sh/maijied.github.io/roast-as-a-service.svg?view=today-total&style=flat-square&label=visitors&color=ec4899&labelColor=020617" alt="Visitor Count" />
   <a href="https://www.npmjs.com/package/roast-api"><img src="https://img.shields.io/npm/v/roast-api?style=flat-square&color=f97316&labelColor=020617" alt="npm version" /></a>
   <a href="https://www.npmjs.com/package/roast-api"><img src="https://img.shields.io/npm/dm/roast-api?style=flat-square&color=ec4899&labelColor=020617" alt="npm downloads" /></a>
-  <a href="https://pypi.org/project/roast-api/"><img src="https://img.shields.io/pypi/v/roast-api?style=flat-square&color=3b82f6&labelColor=020617" alt="PyPI version" /></a>
+  <a href="https://pypi.org/project/roast-api/"><img src="https://img.shields.io/pypi/v/roast-api.svg?style=flat-square&color=3b82f6&labelColor=020617" alt="PyPI version" /></a>
   <a href="https://packagist.org/packages/maizied/roast-api"><img src="https://img.shields.io/packagist/v/maizied/roast-api?style=flat-square&color=10b981&labelColor=020617" alt="Packagist version" /></a>
   <a href="https://github.com/Maijied/roast-as-a-service/actions/workflows/ci.yml"><img src="https://github.com/Maijied/roast-as-a-service/actions/workflows/ci.yml/badge.svg" alt="RaaS CI/CD Pipeline" /></a>
+</p>
+
+<p align="center">
+  <a href="https://maijied.github.io/roast-as-a-service/"><img src="https://img.shields.io/badge/Deploy%20to-GitHub%20Pages-blue?style=flat-square&logo=github" alt="Deploy to GitHub Pages" /></a>
 </p>
 
 Random developer roasts, delivered via a blazing‑fast static API on GitHub Pages. Plug it into your apps, bots, terminals, or CI logs when “nice error messages” just aren’t enough.

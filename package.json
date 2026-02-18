@@ -1,6 +1,6 @@
 {
     "name": "roast-api",
-    "version": "1.5.4",
+    "version": "1.5.6",
     "description": "A static JSON API for delivering developer roasts.",
     "main": "api/client.js",
     "scripts": {

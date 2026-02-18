@@ -30,7 +30,7 @@
         <header class="hero">
             <div class="hero-text">
                 <div class="brand-pill">
-                    ⚡ Released v1.5.4 · <a href="https://github.com/Maijied/lorapok" target="_blank">Lorapok</a>
+                    ⚡ Released v1.5.6 · <a href="https://github.com/Maijied/lorapok" target="_blank">Lorapok</a>
                 </div>
                 <h1>
                     <img src="./assets/logo.png" alt="RaaS Logo" class="logo-md" />
@@ -151,31 +151,46 @@ $ raas get --lang=en
                 </div>
             </section>
 
-            <section class="section">
-                <h2>API Usage</h2>
-                <p style="color: var(--text-muted); margin-bottom: 2rem; font-size: 1.125rem;">RaaS is a read‑only
-                    static API. Interact with it using simple GET requests or the SDK.</p>
-                <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));">
+            <section class="section" id="quick-start">
+                <h2>Quick start</h2>
+                <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
                     <div class="code-card">
-                        <h3>cURL</h3>
-                        <pre style="color: #cbd5e1;"><code># Get English shard 1
-curl https://maijied.github.io/roast-as-a-service/api/en/roasts-en-1.json
+                        <h3>npm install</h3>
+                        <pre style="color: #cbd5e1;"><code>npm install roast-api
 
-# Pretty-print first roast (requires jq)
-curl -s https://maijied.github.io/roast-as-a-service/api/en/roasts-en-1.json \
-  | jq '.roasts[0].text'</code></pre>
+// Usage
+const RaaS = require('roast-api');
+RaaS.getRandomRoast({ lang: 'en' })
+  .then(r => console.log(r.text));</code></pre>
                     </div>
                     <div class="code-card">
-                        <h3>Node.js Fetch</h3>
-                        <pre style="color: #cbd5e1;"><code>import fetch from 'node-fetch';
+                        <h3>Script include</h3>
+                        <pre style="color: #cbd5e1;"><code>&lt;script src="https://maijied.github.io/roast-as-a-service/api/client.js"&gt;&lt;/script&gt;
 
-async function getRandomRoast(lang = 'en') {
-  const url = `.../api/${lang}/roasts-${lang}-1.json`;
-  const res = await fetch(url);
-  const data = await res.json();
-  const list = data.roasts;
-  return list[Math.floor(Math.random() * list.length)].text;
-}</code></pre>
+&lt;script&gt;
+  RaaS.getRandomRoast({ lang: 'bn', intensity: 2 })
+    .then(r => console.log(r.text));
+&lt;/script&gt;</code></pre>
+                    </div>
+                    <div class="code-card">
+                        <h3>Composer (PHP)</h3>
+                        <pre style="color: #cbd5e1;"><code>composer require maizied/roast-api
+
+// Usage
+use Maizied\RoastApi\RaaS;
+
+$roast = RaaS::getRandomRoast(['lang' => 'en']);
+echo $roast['text'];</code></pre>
+                    </div>
+                    <div class="code-card">
+                        <h3>pip (Python)</h3>
+                        <pre style="color: #cbd5e1;"><code>pip install roast-api
+
+# Usage
+from roast_api import get_random_roast
+
+roast = get_random_roast(lang='en')
+print(roast['text'])</code></pre>
                     </div>
                 </div>
             </section>
