@@ -30,15 +30,15 @@
         <header class="hero">
             <div class="hero-text">
                 <div class="brand-pill">
-                    🐛 Powered by <a href="https://github.com/Maijied/lorapok" target="_blank">Lorapok</a>
+                    ⚡ Released v1.5.2 · <a href="https://github.com/Maijied/lorapok" target="_blank">Lorapok</a>
                 </div>
                 <h1>
                     <img src="./assets/logo.png" alt="RaaS Logo" class="logo-md" />
                     Roast as a Service
                 </h1>
                 <p class="subtitle">
-                    CDN‑served static JSON API for developer roasts. English &amp; Bangla support. Blazing fast, zero
-                    ops.
+                    The ultra‑fast static JSON API for developer roasts. English &amp; Bangla support. Zero ops, total
+                    fire.
                 </p>
 
                 <div class="hero-actions">
@@ -46,7 +46,7 @@
                     <button id="btn-bn" class="btn ghost">🔥 Roast me (BN)</button>
                 </div>
 
-                <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-top: 1.5rem; opacity: 0.8;">
+                <div style="display: flex; gap: 12px; flex-wrap: wrap; margin-top: 2rem; opacity: 0.6;">
                     <a href="https://www.npmjs.com/package/roast-api" target="_blank"><img
                             src="https://img.shields.io/npm/v/roast-api?style=flat-square&color=f97316&labelColor=020617"
                             alt="npm version" /></a>
@@ -68,7 +68,7 @@
                     <span class="dot red"></span>
                     <span class="dot amber"></span>
                     <span class="dot green"></span>
-                    <span class="card-title">RaaS Console</span>
+                    <span class="card-title">Edge Console</span>
                 </div>
                 <pre id="roast-box" class="terminal">
 $ raas get --lang=en
@@ -79,27 +79,30 @@ $ raas get --lang=en
 
         <main>
             <section class="section">
-                <h2>Why RaaS?</h2>
+                <h2>The RaaS Edge</h2>
                 <div class="grid">
                     <div class="card">
-                        <h3>Static &amp; Fast</h3>
+                        <div style="font-size: 2rem; margin-bottom: 1.5rem;">🚀</div>
+                        <h3>Edge Delivery</h3>
                         <p>
-                            Served from GitHub Pages’ global PoPs. Minimal latency, zero application servers in the
-                            path.
+                            Distributed via GitHub Pages’ global PoPs. Zero application servers, zero cold starts, and
+                            ultra-low TTFB.
                         </p>
                     </div>
                     <div class="card">
-                        <h3>Smart Client</h3>
+                        <div style="font-size: 2rem; margin-bottom: 1.5rem;">🧠</div>
+                        <h3>Smart SDK</h3>
                         <p>
-                            Client SDK handles randomness, filtering, and caching. Behaves like a dynamic API, costs
-                            nothing to host.
+                            Client-side logic handles randomness and caching. You get a dynamic API experience with 100%
+                            static reliability.
                         </p>
                     </div>
                     <div class="card">
-                        <h3>Dev-First</h3>
+                        <div style="font-size: 2rem; margin-bottom: 1.5rem;">🛡️</div>
+                        <h3>Zero Ops</h3>
                         <p>
-                            Designed for bots, CLIs, and CI pipelines. Supports npm, Composer, pip, and direct script
-                            include.
+                            No databases to maintain. No traffic spikes to worry about. Git push is your deployment
+                            pipeline.
                         </p>
                     </div>
                 </div>
@@ -109,7 +112,7 @@ $ raas get --lang=en
                 <h2>Quick Start</h2>
                 <div class="code-grid">
                     <div class="code-card">
-                        <h3>npm</h3>
+                        <h3>package: npm</h3>
                         <pre><code>npm i roast-api
 
 const RaaS = require('roast-api');
@@ -117,23 +120,21 @@ RaaS.getRandomRoast()
   .then(r =&gt; console.log(r.text));</code></pre>
                     </div>
                     <div class="code-card">
-                        <h3>PHP</h3>
+                        <h3>package: PHP</h3>
                         <pre><code>composer require maizied/roast-api
 
 use Maizied\RoastApi\RaaS;
-$roast = RaaS::getRandomRoast();
-echo $roast['text'];</code></pre>
+echo RaaS::getRandomRoast()['text'];</code></pre>
                     </div>
                     <div class="code-card">
-                        <h3>Python</h3>
+                        <h3>package: Python</h3>
                         <pre><code>pip install roast-api
 
 from roast_api import get_random_roast
-roast = get_random_roast()
-print(roast['text'])</code></pre>
+print(get_random_roast()['text'])</code></pre>
                     </div>
                     <div class="code-card">
-                        <h3>Script Tag</h3>
+                        <h3>Browser Script</h3>
                         <pre><code>&lt;script src=".../client.js"&gt;&lt;/script&gt;
 
 RaaS.getRandomRoast()
@@ -143,40 +144,54 @@ RaaS.getRandomRoast()
             </section>
 
             <section class="section">
-                <h2>API Shards</h2>
+                <h2>Dataset Shards</h2>
+                <p style="color: var(--text-muted); margin-bottom: 2rem; font-size: 1.125rem;">Sharded JSON for optimal
+                    payload size and cache hit rates.</p>
                 <div class="grid">
-                    <div class="card">
-                        <h3>English (EN)</h3>
-                        <p>399+ roasts available.</p>
-                        <a href="./api/en/roasts-en-1.json" class="share-btn" target="_blank"
-                            style="margin-top: 1rem; display: inline-block;">View Shard</a>
+                    <div class="card"
+                        style="display: flex; justify-content: space-between; align-items: center; padding: 2.5rem;">
+                        <div>
+                            <h3 style="margin-bottom: 0.5rem;">English (EN)</h3>
+                            <p>399+ fire roasts available.</p>
+                        </div>
+                        <a href="./api/en/roasts-en-1.json" class="share-btn" target="_blank">JSON</a>
                     </div>
-                    <div class="card">
-                        <h3>Bangla (BN)</h3>
-                        <p>348+ roasts available.</p>
-                        <a href="./api/bn/roasts-bn-1.json" class="share-btn" target="_blank"
-                            style="margin-top: 1rem; display: inline-block;">View Shard</a>
+                    <div class="card"
+                        style="display: flex; justify-content: space-between; align-items: center; padding: 2.5rem;">
+                        <div>
+                            <h3 style="margin-bottom: 0.5rem;">Bangla (BN)</h3>
+                            <p>348+ fire roasts available.</p>
+                        </div>
+                        <a href="./api/bn/roasts-bn-1.json" class="share-btn" target="_blank">JSON</a>
                     </div>
                 </div>
             </section>
         </main>
 
         <footer class="footer">
-            <div style="display: flex; align-items: center; justify-content: center; gap: 12px; margin-bottom: 1.5rem;">
-                <img src="./assets/logo.png" alt="RaaS Logo" style="width: 32px; height: 32px;" />
-                <span style="font-weight: 700; color: #fff; letter-spacing: -0.02em;">RaaS Project</span>
+            <div style="display: flex; align-items: center; justify-content: center; gap: 12px; margin-bottom: 2rem;">
+                <img src="./assets/logo.png" alt="RaaS Logo" style="width: 40px; height: 40px;" />
+                <span
+                    style="font-family: var(--font-heading); font-weight: 800; font-size: 1.5rem; color: #fff; letter-spacing: -0.04em;">RaaS</span>
             </div>
 
-            <p style="margin-bottom: 2rem;">
-                A <a href="https://github.com/Maijied/lorapok" target="_blank">Lorapok</a> project made by <a
-                    href="https://github.com/Maijied" target="_blank">Maizied</a>.
+            <p style="color: var(--text-soft); font-size: 1rem;">
+                A <a href="https://github.com/Maijied/lorapok" target="_blank"
+                    style="color: var(--text-muted); text-decoration: none;">Lorapok</a> creation by <a
+                    href="https://github.com/Maijied" target="_blank"
+                    style="color: var(--text-muted); text-decoration: none;">Maizied</a>.
             </p>
 
             <div class="share-buttons">
                 <a id="share-twitter" class="share-btn">Twitter</a>
                 <a id="share-facebook" class="share-btn">Facebook</a>
                 <a id="share-linkedin" class="share-btn">LinkedIn</a>
-                <a href="https://github.com/Maijied/roast-as-a-service" class="share-btn" target="_blank">Github</a>
+                <a href="https://github.com/Maijied/roast-as-a-service" class="share-btn" target="_blank">GitHub</a>
+            </div>
+
+            <div class="footer-nav">
+                <a href="mailto:mdshuvo40@gmail.com">Contact</a>
+                <a href="https://github.com/Maijied/roast-as-a-service/issues">Report Humor Issue</a>
             </div>
         </footer>
     </div>
@@ -188,7 +203,7 @@ RaaS.getRandomRoast()
         const btnBn = document.getElementById('btn-bn');
 
         async function showRoast(lang) {
-            roastBox.textContent = 'Curating fire...';
+            roastBox.textContent = 'Analyzing your failures...';
             try {
                 const data = await RaaS.getRandomRoast({ lang });
                 roastBox.textContent = data.text;
@@ -201,7 +216,7 @@ RaaS.getRandomRoast()
         btnBn.addEventListener('click', () => showRoast('bn'));
 
         const pageUrl = encodeURIComponent(window.location.href);
-        const shareText = encodeURIComponent('Roast as a Service (RaaS): Blazing-fast static JSON API for developer roasts.');
+        const shareText = encodeURIComponent('Roast as a Service (RaaS): Elite static JSON API for developer roasts.');
         document.getElementById('share-twitter').href = `https://twitter.com/intent/tweet?url=${pageUrl}&text=${shareText}`;
         document.getElementById('share-facebook').href = `https://www.facebook.com/sharer/sharer.php?u=${pageUrl}`;
         document.getElementById('share-linkedin').href = `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`;
